@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" items-center justify-center flex min-h-screen">
+    <div className=" items-center justify-center flex min-h-screen bg-gray-950">
       <Image
         src="/ConnectPhone-row_color.png"
         alt="Logo"
