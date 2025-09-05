@@ -6,7 +6,9 @@ import { RxCaretDown } from "react-icons/rx";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import OutsideClickHandler from "react-outside-click-handler";
+import { CircleFlagLanguage } from "react-circle-flags";
 import LanguageButton from "./LanguagePopoverButton.client";
+import { routing } from "@/app/i18n/routing";
 
 //-------------------------------------------------------------------------
 
@@ -29,39 +31,34 @@ const LanguageChanger = () => {
     >
       <motion.div
         onClick={handleToggle}
-        className={`absolute top-0 right-0 cursor-pointer flex flex-col items-center p-2 rounded-[20px] select-none gap-2`}
+        className={`absolute top-0 right-0 cursor-pointer p-3 rounded-md select-none gap-2 border w-40 bg-amber-200`}
         initial={{
-          backgroundColor: "transparent",
-          boxShadow: "none",
-          backdropFilter: "none",
+          backgroundColor: "rgb(31 41 55)",
+          borderColor: "rgb(55 65 81)",
         }}
         animate={{
-          backgroundColor: isOpen ? "rgba(255,255,255,0.4)" : "transparent",
-          boxShadow: isOpen ? "0 3px 10px 0 rgba(0,0,0,0.3)" : "none",
-          backdropFilter: isOpen ? "blur(6px)" : "none",
+          backgroundColor: isOpen ? "rgb(17 24 39)" : "rgb(31 41 55)",
+          borderColor: isOpen ? "rgb(75 85 99)" : "rgb(55 65 81)",
         }}
-        exit={{
-          backgroundColor: "transparent",
-          boxShadow: "none",
-          backdropFilter: "none",
+        whileHover={{
+          backgroundColor: "rgb(17 24 39)",
+          borderColor: "rgb(75 85 99)",
         }}
         transition={{
           duration: 0.2,
         }}
       >
-        <div className="flex items-center gap-1">
-          <div className="bg-slate-100/30 p-1 rounded-full shadow-lg">
-            <motion.div
-              animate={{ rotate: isOpen ? -90 : 0 }}
-              transition={{ duration: 0.2, ease: "easeInOut" }}
-            >
-              <CiGlobe size={24} color="#555555" />
-            </motion.div>
-          </div>
-          <span className="text-xs font-semibold">
+        <div className="flex items-center justify-between ">
+          <CircleFlagLanguage
+            languageCode={currentLocale}
+            height={15}
+            width={15}
+          />
+
+          <span className="text-xs font-medium text-gray-300">
             {translations(currentLocale)}
           </span>
-          <RxCaretDown size={18} />
+          <RxCaretDown size={14} className="text-gray-400" />
         </div>
 
         <motion.div
@@ -76,10 +73,17 @@ const LanguageChanger = () => {
           }}
           className="overflow-hidden w-full flex flex-col"
         >
-          <LanguageButton locale="en" icon="en-us" />
-          <LanguageButton locale="es" icon="es" />
-          <LanguageButton locale="fr" icon="fr" />
-          <LanguageButton locale="de" icon="de" />
+          {isOpen && (
+            <div className="flex flex-col gap-1  mt-4">
+              {routing.locales.map((locale) => (
+                <LanguageButton
+                  key={locale}
+                  locale={locale}
+                  icon={locale === "en" ? "en-us" : locale}
+                />
+              ))}
+            </div>
+          )}
         </motion.div>
       </motion.div>
     </OutsideClickHandler>

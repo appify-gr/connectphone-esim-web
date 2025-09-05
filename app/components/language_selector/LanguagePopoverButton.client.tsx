@@ -32,17 +32,22 @@ export default function LanguageButton({
         { pathname, params },
         { locale: nextLocale }
       );
+      router.refresh();
     });
   }
 
   return (
     <button
-      className="flex items-center justify-between gap-1 text-xs px-3 py-2 rounded-full bg-transparent hover:bg-white disabled:opacity-50"
+      className={`flex items-center justify-between gap-2 text-xs px-3 py-2 rounded transition-colors duration-200 ${
+        locale === currentLocale
+          ? "bg-gray-700 text-gray-200 cursor-default"
+          : "bg-transparent hover:bg-gray-800 text-gray-400 hover:text-gray-200"
+      } disabled:opacity-50`}
       onClick={() => handleChange(locale)}
       disabled={isPending || locale === currentLocale}
     >
-      {translations(locale)}
-      <CircleFlagLanguage languageCode={icon} height={15} width={15} />
+      <span className="font-medium">{translations(locale)}</span>
+      <CircleFlagLanguage languageCode={icon} height={12} width={12} />
     </button>
   );
 }

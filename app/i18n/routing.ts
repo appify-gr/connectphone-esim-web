@@ -9,11 +9,11 @@ export const routing = defineRouting({
   defaultLocale: "en",
   pathnames: {
     "/": "/",
-    "/pathnames": {
-      en: "/pathnames",
-      de: "/pfadnamen",
-      fr: "/noms-de-chemin",
-      es: "/nombres-de-ruta",
+    "/e-sim-compatibility-guide": {
+      en: "/e-sim-compatibility-guide",
+      de: "/e-sim-kompatibilitätsleitfaden",
+      fr: "/guide-de-compatibilité-e-sim",
+      es: "/guía-de-compatibilidad-e-sim",
     },
   },
 });
