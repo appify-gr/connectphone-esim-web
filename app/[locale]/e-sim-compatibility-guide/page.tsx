@@ -3,11 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import phoneInstructions from "./data.json";
 import Button from "@/app/components/Button";
+import { getTranslations } from "next-intl/server";
 import LanguageChanger from "@/app/components/language_selector/LanguageChanger.client";
 
 //---------------------------------------------------------------
 
-export default function Page() {
+export default async function Page() {
+  const translations = await getTranslations();
+
   // Create unique ids for phone brands, handling duplicates
   const phoneIds = phoneInstructions.map((phone, index) => {
     const baseId = phone.brand.toLowerCase().replace(/\s+/g, "-");
@@ -18,6 +21,9 @@ export default function Page() {
       .findIndex((p) => p.brand === phone.brand);
     return duplicateIndex !== -1 ? `${baseId}-${index}` : baseId;
   });
+
+  const models = translations("models");
+  console.log("models:", models);
 
   return (
     <div className="min-h-screen bg-gray-950">
@@ -41,7 +47,7 @@ export default function Page() {
             <h1 className="text-2xl sm:text-3xl font-medium text-white">
               E-SIM Compatibility Guide
             </h1>
-            <LanguageChanger />
+            {/* <LanguageChanger /> */}
           </div>
         </div>
 

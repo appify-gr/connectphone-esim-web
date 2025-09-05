@@ -1,0 +1,10 @@
+{
+  "select_language": "Select language",
+  "en": "English",
+  "de": "German",
+  "fr": "French",
+  "es": "Spanish",
+  "not_found_message": "The page could not be found.",
+  "error_message": "An error occurred.",
+  "in_development": "In development"
+}

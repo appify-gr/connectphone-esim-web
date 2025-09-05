@@ -1,0 +1,11 @@
+{
+  "hello": "Hola Mundo",
+  "select_language": "Seleccionar idioma",
+  "en": "Inglés",
+  "de": "Alemán",
+  "fr": "Francés",
+  "es": "Español",
+  "not_found_message": "No se pudo encontrar la página.",
+  "error_message": "Se ha producido un error.",
+  "in_development": "En desarrollo"
+}
