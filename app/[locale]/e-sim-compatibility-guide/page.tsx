@@ -2,7 +2,8 @@ import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import phoneInstructions from "./data.json";
-import Button from "../components/Button";
+import Button from "@/app/components/Button";
+import LanguageChanger from "@/app/components/language_selector/LanguageChanger.client";
 
 //---------------------------------------------------------------
 
@@ -36,10 +37,12 @@ export default function Page() {
               title="View our E-SIM offers"
             />
           </div>
-
-          <h1 className="text-2xl sm:text-3xl font-medium text-white">
-            E-SIM Compatibility Guide
-          </h1>
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 relative">
+            <h1 className="text-2xl sm:text-3xl font-medium text-white">
+              E-SIM Compatibility Guide
+            </h1>
+            <LanguageChanger />
+          </div>
         </div>
 
         {/* Phone Brand Navigation */}
