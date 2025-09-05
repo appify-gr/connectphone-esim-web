@@ -28,12 +28,7 @@ export default function Page() {
         <div className="flex flex-col gap-4 sm:gap-8">
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
             <Link href="/">
-              <Image
-                src="/ConnectPhone-row_color.png"
-                alt="Logo"
-                width={250}
-                height={150}
-              />
+              <Image src="/logo.png" alt="Logo" width={250} height={150} />
             </Link>
 
             <Button
