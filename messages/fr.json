@@ -6,6 +6,7 @@
   "fr": "Français",
   "es": "Espagnol",
   "not_found_message": "La page n'a pas pu être trouvée.",
+  "in_development": "En développement",
   "error_message": "Une erreur s'est produite.",
   "e_sim_compatibility_guide_title": "Guide de compatibilité eSIM",
   "e_sim_compatibility_page": {
