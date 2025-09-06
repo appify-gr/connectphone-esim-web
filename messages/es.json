@@ -6,5 +6,31 @@
   "fr": "Francés",
   "es": "Español",
   "not_found_message": "No se pudo encontrar la página.",
-  "error_message": "Se ha producido un error."
+  "error_message": "Se ha producido un error.",
+  "e_sim_compatibility_guide_title": "Guía de compatibilidad con eSIM",
+  "e_sim_compatibility_page": {
+    "title": "Guía de compatibilidad con eSIM",
+    "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
+    "jump_to_your_phone_brand": "Saltar a su marca de teléfono:",
+    "quick_tips": {
+      "title": "Consejos Rápidos",
+      "1": "Si ve la opción 'Agregar eSIM' en la configuración, su teléfono es compatible con eSIM.",
+      "2": "Marque *#06# para verificar el número EID (identificador de eSIM), si no puede ver el número EID, su teléfono probablemente NO es compatible con eSIM.",
+      "3": "Su dispositivo debe estar desbloqueado por el operador para usar eSIM de otros proveedores."
+    },
+    "can_esim_be_used_internationally": {
+      "title": "¿Se puede usar eSIM internacionalmente?",
+      "answer": "Sí, siempre que su teléfono sea compatible con eSIM y esté desbloqueado, puede usar una eSIM internacional mientras viaja al extranjero. Esa es una de sus mayores ventajas para los viajeros internacionales. Puede comprar un plan de datos en línea, instalarlo antes de su viaje y activarlo en el momento en que llegue a su destino; no es necesario encontrar una tienda de tarjetas SIM ni lidiar con tarifas de roaming."
+    },
+    "is_my_phone_unlocked": {
+      "title": "¿Está mi teléfono desbloqueado para usar eSIM?",
+      "answer": "Independientemente del teléfono que tenga, debe estar desbloqueado de las restricciones del operador para usar eSIM. Algunos teléfonos están atados a un operador móvil específico y solo pueden usar planes de datos de esa red."
+    },
+    "manual_check_instructions": "Instrucciones de verificación manual",
+    "methods_to_check": "étodos de verificación",
+    "method": "étodo",
+    "compatible_models": "Modelos compatibles",
+    "not_compatible_models": "Modelos no compatibles",
+    "compatibility": "Compatibilidad"
+  }
 }

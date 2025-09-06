@@ -6,5 +6,31 @@
   "fr": "Français",
   "es": "Espagnol",
   "not_found_message": "La page n'a pas pu être trouvée.",
-  "error_message": "Une erreur s'est produite."
+  "error_message": "Une erreur s'est produite.",
+  "e_sim_compatibility_guide_title": "Guide de compatibilité eSIM",
+  "e_sim_compatibility_page": {
+    "title": "Guide de compatibilité eSIM",
+    "e_sim_offers_button_title": "Voir nos offres de eSIM",
+    "jump_to_your_phone_brand": "Sauter à votre marque de téléphone:",
+    "quick_tips": {
+      "title": "Conseils rapides",
+      "1": "Si vous voyez l'option 'Ajouter eSIM' dans les paramètres, votre téléphone prend en charge eSIM.",
+      "2": "Composez *#06# pour vérifier le numéro EID (identifiant eSIM), si vous ne pouvez pas voir le numéro EID, votre téléphone ne prend probablement pas en charge eSIM.",
+      "3": "Votre appareil doit être déverrouillé par l'opérateur pour utiliser les eSIM d'autres fournisseurs."
+    },
+    "can_esim_be_used_internationally": {
+      "title": "L'eSIM peut-elle être utilisée à l'international?",
+      "answer": "Oui, tant que votre téléphone est compatible eSIM et déverrouillé, vous pouvez utiliser une eSIM internationale lors de vos voyages à l'étranger. C'est l'un de ses plus grands avantages pour les voyageurs internationaux. Vous pouvez acheter un forfait de données en ligne, l'installer avant votre voyage et l'activer au moment où vous arrivez à votre destination, sans avoir à chercher un magasin de cartes SIM ou à gérer des frais d'itinérance."
+    },
+    "is_my_phone_unlocked": {
+      "title": "Mon téléphone est-il déverrouillé pour utiliser eSIM?",
+      "answer": "Quel que soit le téléphone que vous avez, il doit être déverrouillé des restrictions de l'opérateur pour utiliser eSIM. Certains téléphones sont liés à un opérateur mobile spécifique et ne peuvent utiliser que des forfaits de données de ce réseau."
+    },
+    "manual_check_instructions": "Instructions de vérification manuelle",
+    "methods_to_check": "éthodes de vérification",
+    "method": "éthode",
+    "compatible_models": "Modèles compatibles",
+    "not_compatible_models": "Modèles non compatibles",
+    "compatibility": "Compatibilité"
+  }
 }

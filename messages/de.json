@@ -6,5 +6,31 @@
   "fr": "Französisch",
   "es": "Spanisch",
   "not_found_message": "Die Seite konnte nicht gefunden werden.",
-  "error_message": "Ein Fehler ist aufgetreten."
+  "error_message": "Ein Fehler ist aufgetreten.",
+  "e_sim_compatibility_guide_title": "eSIM-Kompatibilitätsleitfaden",
+  "e_sim_compatibility_page": {
+    "title": "eSIM-Kompatibilitätsleitfaden",
+    "e_sim_offers_button_title": "Unsere E-SIM-Angebote anzeigen",
+    "jump_to_your_phone_brand": "Springen Sie zu Ihrer Telefonmarke:",
+    "quick_tips": {
+      "title": "Schnelle Tipps",
+      "1": "Wenn Sie die Option 'eSIM hinzufügen' in den Einstellungen sehen, unterstützt Ihr Telefon eSIM.",
+      "2": "Wählen Sie *#06#, um die EID-Nummer (eSIM-Identifikator) zu überprüfen. Wenn Sie die EID-Nummer nicht sehen können, unterstützt Ihr Telefon wahrscheinlich keine eSIM.",
+      "3": "Ihr Gerät muss vom Anbieter entsperrt sein, um eSIMs von anderen Anbietern verwenden zu können."
+    },
+    "can_esim_be_used_internationally": {
+      "title": "Kann eSIM international genutzt werden?",
+      "answer": "Ja, solange Ihr Telefon eSIM-kompatibel und entsperrt ist, können Sie eine internationale eSIM während Ihrer Reisen im Ausland nutzen. Das ist einer der größten Vorteile für internationale Reisende. Sie können einen Datenplan online kaufen, ihn vor Ihrer Reise installieren und ihn aktivieren, sobald Sie an Ihrem Zielort ankommen – ohne die Notwendigkeit, einen SIM-Kartenladen zu finden oder sich mit Roaming-Gebühren auseinanderzusetzen."
+    },
+    "is_my_phone_unlocked": {
+      "title": "Ist mein Telefon entsperrt, um eSIM zu verwenden?",
+      "answer": "Unabhängig davon, welches Telefon Sie haben, muss es von den Einschränkungen des Anbieters entsperrt sein, um eSIM verwenden zu können. Einige Telefone sind an einen bestimmten Mobilfunkanbieter gebunden und können nur Datenpläne von diesem Netzwerk nutzen."
+    },
+    "manual_check_instructions": "Manuelle Überprüfungsanweisungen",
+    "methods_to_check": "Überprüfungsmethoden",
+    "method": "Methode",
+    "compatible_models": "Kompatible Modelle",
+    "not_compatible_models": "Nicht kompatible Modelle",
+    "compatibility": "Kompatibilität"
+  }
 }

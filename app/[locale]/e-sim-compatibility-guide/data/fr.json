@@ -1,0 +1,1020 @@
+[
+  {
+    "brand": "iPhone",
+    "description": "Apple a été l'une des premières marques à adopter pleinement la technologie eSIM. Cela facilite les choses pour les voyageurs et les utilisateurs de rester connectés sans carte SIM physique. Vous trouverez ci-dessous une liste à jour des iPhones qui prennent en charge l'eSIM pour vérifier rapidement la compatibilité.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Si votre iPhone prend en charge l'eSIM dépend du modèle. Tous les iPhones à partir du XR et XS prennent en charge l'eSIM. Si vous possédez un iPhone XR ou plus récent, vous pouvez utiliser l'eSIM ; les modèles plus anciens nécessitent toujours des cartes SIM physiques.",
+        "steps": [
+          "Aller aux Réglages",
+          "Aller à Données cellulaires",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      },
+      {
+        "description": null,
+        "steps": [
+          "Vérifiez votre modèle d'iPhone : XR ou plus récent prend en charge l'eSIM"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Tous les iPhones à partir du XR et XS prennent en charge l'eSIM. Les iPhones plus anciens nécessitent toujours des cartes SIM physiques.",
+      "*Les iPhones de Chine continentale ainsi que les iPhones de Hong Kong et Macao (sauf iPhone 13 mini, iPhone 12 mini, iPhone SE 2020 et iPhone XS) ne prennent pas en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "iPhones à partir du XR, Note : À partir de l'iPhone 13, deux eSIM peuvent être activées simultanément",
+        "models": [
+          "iPhone XR",
+          "iPhone XS",
+          "iPhone XS Max",
+          "iPhone 11",
+          "iPhone 11 Pro",
+          "iPhone 11 Pro Max",
+          "iPhone SE 2 (2020)",
+          "iPhone 12",
+          "iPhone 12 Mini",
+          "iPhone 12 Pro",
+          "iPhone 12 Pro Max",
+          "iPhone 13",
+          "iPhone 13 Mini",
+          "iPhone 13 Pro",
+          "iPhone 13 Pro Max",
+          "iPhone SE 3 (2022)",
+          "iPhone 14",
+          "iPhone 14 Plus",
+          "iPhone 14 Pro",
+          "iPhone 14 Pro Max",
+          "iPhone 15",
+          "iPhone 15 Plus",
+          "iPhone 15 Pro",
+          "iPhone 15 Pro Max",
+          "iPhone 16",
+          "iPhone 16 Plus",
+          "iPhone 16 Pro",
+          "iPhone 16 Pro Max",
+          "iPhone 16e"
+        ]
+      }
+    ],
+    "incompatibleModels": [
+      {
+        "title": "iPhones sans support eSIM",
+        "models": [
+          "iPhone X",
+          "iPhone 8",
+          "iPhone 8 Plus",
+          "iPhone 7",
+          "iPhone 7 Plus",
+          "iPhone 6s",
+          "iPhone 6s Plus"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "description": "Samsung a considérablement étendu son support eSIM avec la série Galaxy S20, l'établissant comme une fonctionnalité grand public pour activer les plans mobiles numériquement. Cette fonctionnalité est depuis devenue un élément de base dans les gammes phares suivantes, y compris les séries Galaxy S, Note20 et Z Fold/Flip, bien que la disponibilité dépende toujours des politiques régionales et des opérateurs.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Ouvrir Paramètres",
+          "Appuyer sur Connexions",
+          "Sélectionner Gestionnaire de carte SIM",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      },
+      {
+        "description": "Vérifier via IMEI",
+        "steps": [
+          "Ouvrir Paramètres",
+          "Rechercher les informations IMEI",
+          "Chercher IMEI (eSIM) ou EID"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Une large gamme de téléphones Samsung prend en charge l'eSIM, vérifiez en utilisant la méthode des paramètres ou de l'IMEI"
+    ],
+    "compatibleModels": [
+      {
+        "title": "Vérifiez les Modèles NON Compatibles ci-dessous, car certains modèles achetés dans des régions spécifiques peuvent ne pas prendre en charge l'eSIM.",
+        "models": [
+          "Samsung Galaxy S20",
+          "Samsung Galaxy S20+",
+          "Samsung Galaxy S20+ 5g",
+          "Samsung Galaxy S20 Ultra",
+          "Samsung Galaxy S20 Ultra 5G",
+          "Samsung Galaxy S21",
+          "Samsung Galaxy S21+ 5G",
+          "Samsung Galaxy S21+ Ultra 5G",
+          "Samsung Galaxy S22",
+          "Samsung Galaxy S22+",
+          "Samsung Galaxy S22 Ultra",
+          "Samsung Galaxy S23",
+          "Samsung Galaxy S23+",
+          "Samsung Galaxy S23 Ultra",
+          "Samsung Galaxy S23 FE* (Les modèles de Chine ou de Hong Kong n'admettent pas l'eSIM)",
+          "Samsung Galaxy S24",
+          "Samsung Galaxy S24+",
+          "Samsung Galaxy S24 Ultra",
+          "Samsung Galaxy S24 FE",
+          "Samsung Galaxy S25",
+          "Samsung Galaxy S25+",
+          "Samsung Galaxy S25 Ultra",
+          "Samsung Galaxy S25 Edge",
+          "Samsung Galaxy Note 20",
+          "Samsung Galaxy Note 20 Ultra 5G",
+          "Samsung Galaxy Fold",
+          "Samsung Galaxy Z Fold2 5G",
+          "Samsung Galaxy Z Fold3 5G",
+          "Samsung Galaxy Z Fold4",
+          "Samsung Galaxy Z Fold5 5G",
+          "Samsung Galaxy Z Fold6 5G",
+          "Samsung Galaxy Z Fold7",
+          "Samsung Galaxy Z Flip",
+          "Samsung Galaxy Z Flip3 5G",
+          "Samsung Galaxy Z Flip4",
+          "Samsung Galaxy Z Flip5 5G",
+          "Samsung Galaxy Z Flip6 5G",
+          "Samsung Galaxy Z Flip7",
+          "Samsung Galaxy Z Flip7 FE",
+          "Samsung Galaxy A54 (SCG21 (Modèle Japonais), SC-53D (Modèle Japonais), SM-A546B/DS (Modèle International), SM-A546S (Modèle Coréen), SM-A546U1 (Modèle International))",
+          "Samsung Galaxy A55 5G",
+          "Samsung Galaxy A35",
+          "Samsung Galaxy A56",
+          "Samsung Galaxy A36"
+        ]
+      }
+    ],
+    "incompatibleModels": [
+      {
+        "title": null,
+        "models": [
+          "Samsung Galaxy S20 FE 4G",
+          "Samsung Galaxy S20 FE 5G",
+          "Samsung S20 (version US)",
+          "Samsung S21 (version US)",
+          "Galaxy Z Flip 5G (version US)",
+          "Samsung Note 20 Ultra (version US)",
+          "Samsung Note 20 Ultra (version Hong Kong)",
+          "Samsung Galaxy Z Fold 2 (version US)",
+          "Samsung Galaxy Z Fold 2 (version Hong Kong)",
+          "Samsung Galaxy Z Flip (SM-F700F, version Hong Kong)",
+          "Galaxy S20",
+          "Galaxy S20+ 5G",
+          "Galaxy S20 Ultra",
+          "Galaxy S20 Ultra 5G",
+          "Galaxy S21",
+          "Galaxy S21+ 5G",
+          "Galaxy S21 Ultra 5G",
+          "Galaxy S22",
+          "Galaxy S22+",
+          "Galaxy S22 Ultra",
+          "Galaxy Note 20 Ultra 5G",
+          "Galaxy Note 20",
+          "Galaxy Fold",
+          "Galaxy Z Fold2 5G",
+          "Galaxy Z Fold3 5G",
+          "Galaxy Z Flip",
+          "Galaxy Z Flip 5G",
+          "Galaxy Z Flip3 5G"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Google Pixel",
+    "description": "Google a été pionnier dans l'adoption de la technologie eSIM dans les smartphones, l'introduisant pour la première fois avec le Pixel 2 en 2017. Depuis ses débuts, l'eSIM a été une fonctionnalité standard dans toute la gamme Pixel. Les modèles plus récents ont encore étendu cela en prenant en charge l'utilisation de deux eSIM actives en même temps.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Avancé",
+          "Chercher l'option \"Ajouter un opérateur\"",
+          "Autoriser l'appareil photo à scanner le code QR"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "*Les appareils Google Pixel 3 d'Australie, du Japon et de Taïwan ne sont pas compatibles avec l'eSIM.",
+      "*Google Pixel 3a d'Asie du Sud-Est n'est pas compatible avec l'eSIM.",
+      "*Tous les téléphones Google Pixel vendus à Hong Kong sont incompatibles avec la technologie eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": null,
+        "models": [
+          "Google Pixel 2 (avec service Google Fi)",
+          "Google Pixel 2 XL",
+          "Google Pixel 3 (opérateurs US/Canada excluant Sprint et Google Fi)",
+          "Google Pixel 3 XL",
+          "Google Pixel 3a (excluant Japon/Verizon)",
+          "Google Pixel 3a XL",
+          "Google Pixel 4",
+          "Google Pixel 4a",
+          "Google Pixel 4 XL",
+          "Google Pixel 5",
+          "Google Pixel 5a",
+          "Google Pixel 6",
+          "Google Pixel 6a",
+          "Google Pixel 6 Pro",
+          "Google Pixel 7",
+          "Google Pixel 7a",
+          "Google Pixel 7 Pro",
+          "Google Pixel 8",
+          "Google Pixel 8a",
+          "Google Pixel 8 Pro",
+          "Google Pixel Fold",
+          "Google Pixel 9",
+          "Google Pixel 9 Pro",
+          "Google Pixel 9 Pro XL",
+          "Google Pixel 10",
+          "Google Pixel 10 Pro",
+          "Google Pixel 10 Pro XL"
+        ]
+      }
+    ],
+    "incompatibleModels": [
+      {
+        "title": "Modèles Google Pixel sans eSIM",
+        "models": [
+          "Google Pixel 3 (Australie, Japon, Taïwan)",
+          "Google Pixel 3a (Asie du Sud-Est)",
+          "Tous les téléphones Google Pixel vendus à Hong Kong"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Huawei",
+    "description": "Huawei inclut principalement la compatibilité eSIM sur ses téléphones phares ; vérifiez la compatibilité avant d'acheter.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller aux Réseaux mobiles",
+          "Aller au sous-menu Gestion SIM",
+          "Sélectionner \"Ajouter SIM ou eSIM\"",
+          "Entrer le code d'activation",
+          "Scanner le code QR pour eSIM"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Le Huawei P40 Pro+ et P50 Pro ne sont pas compatibles avec l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Huawei avec eSIM",
+        "models": [
+          "Huawei P40",
+          "Huawei P40 Pro",
+          "Huawei Mate 40 Pro",
+          "Huawei Pura 70 Pro"
+        ]
+      }
+    ],
+    "incompatibleModels": [
+      {
+        "title": "Modèles Huawei sans eSIM",
+        "models": ["Huawei P40 Pro+", "Huawei P50 Pro"]
+      }
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "description": "La plupart des modèles Xiaomi ne prennent pas en charge l'eSIM, mais certains modèles haut de gamme le font.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Note : Si vous prévoyez d'utiliser votre téléphone Xiaomi avec des cartes SIM virtuelles internationales, comme Holafly, assurez-vous que votre appareil est déverrouillé pour prendre en charge d'autres réseaux dans le monde entier. Vous devez également avoir une connexion Internet lors de l'installation d'un nouveau profil eSIM.",
+        "steps": [
+          "Aller aux Paramètres",
+          "Appuyer sur \"Réseaux mobiles\"",
+          "Choisir l'option \"Utiliser eSIM\" et appuyer sur \"OK\"",
+          "Sélectionner \"Gérer eSIM\" puis \"Ajouter eSIM\"",
+          "Prendre le code QR et le placer devant votre caméra pour le scanner",
+          "Suivre les instructions à l'écran pour ajouter le nouveau profil eSIM sur votre Xiaomi"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Xiaomi 12T Pro, toutes les séries 13, 14, 15 et les modèles Blackshark 3 prennent en charge l'eSIM"
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Xiaomi avec eSIM",
+        "models": [
+          "Xiaomi 12T Pro",
+          "Xiaomi 13",
+          "Xiaomi 13 Lite",
+          "Xiaomi 13 Pro",
+          "Xiaomi 13T",
+          "Xiaomi 13T Pro",
+          "Xiaomi 14",
+          "Xiaomi 14 Pro",
+          "Xiaomi 14T",
+          "Xiaomi 14T Pro",
+          "Xiaomi Redmi Note 13 Pro+",
+          "Xiaomi Redmi Note 14 Pro",
+          "Xiaomi Redmi Note 14 Pro+",
+          "Xiaomi Poco X7",
+          "Xiaomi 15",
+          "Xiaomi 15 Ultra",
+          "Blackshark 3"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Motorola",
+    "description": "Certains appareils Motorola offrent une compatibilité eSIM, particulièrement dans les modèles plus récents.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Internet et Réseaux",
+          "Réseau mobile",
+          "Avancé",
+          "Opérateur",
+          "Appuyer sur \"Ajouter un opérateur\" puis \"Suivant\"",
+          "Scanner le code QR pour eSIM"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Certains modèles Motorola prennent en charge la technologie eSIM"
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Motorola avec eSIM",
+        "models": [
+          "Motorola Razr 2019",
+          "Motorola Razr 2022",
+          "Motorola Razr 5G",
+          "Motorola Razr 40",
+          "Motorola Razr 40 Ultra",
+          "Motorola Razr+",
+          "Motorola Edge 2022",
+          "Motorola Edge 2023",
+          "Motorola Edge+ (2023)",
+          "Motorola Edge 40",
+          "Motorola Edge 40 Pro",
+          "Motorola Edge 40 Neo",
+          "Motorola Edge 50 Pro",
+          "Motorola Edge 50 Ultra",
+          "Motorola Edge 50 Fusion",
+          "Motorola Moto G Power 5G (2024)",
+          "Motorola G52J 5G",
+          "Motorola G52J 5G Ⅱ",
+          "Motorola G53J 5G",
+          "Moto G54 5G",
+          "Motorola G84",
+          "Motorola G34",
+          "Motorola Moto G53",
+          "Motorola Moto G54",
+          "Motorola Razr+ 2024",
+          "Motorola Razr 2024",
+          "Motorola Moto G Stylus 5G 2024",
+          "Motorola Moto G35",
+          "Motorola Edge 60",
+          "Motorola Edge 60 Pro",
+          "Motorola Edge 60 Fusion",
+          "Motorola Edge 60 Stylus"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Oppo",
+    "description": "Certains des téléphones de dernière génération d'Oppo sont compatibles avec l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via code de numérotation",
+        "steps": [
+          "Composer *#06# et appuyer sur appel pour voir le numéro EID"
+        ],
+        "images": []
+      },
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "À propos",
+          "Informations d'état",
+          "Chercher le champ \"EID\" dans le menu affiché"
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Veuillez noter que la gamme OPPO Lite ne prend pas en charge l'eSIM"
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Oppo avec eSIM",
+        "models": [
+          "Oppo Find X3",
+          "Oppo Find X3 Pro",
+          "Oppo Find N2 Flip",
+          "Oppo Reno 5A",
+          "Oppo Reno 6 Pro 5G",
+          "Oppo Reno 9A",
+          "Oppo Find X5",
+          "Oppo Find X5 Pro",
+          "Oppo A55s 5G",
+          "Oppo Find N3",
+          "Oppo Find N3 Flip",
+          "Oppo Find X8",
+          "Oppo Find X8 Pro",
+          "Oppo Reno14",
+          "Oppo Reno14 Pro"
+        ]
+      }
+    ],
+    "incompatibleModels": [
+      {
+        "title": "Modèles Oppo sans eSIM",
+        "models": ["Gamme Oppo Lite"]
+      }
+    ]
+  },
+  {
+    "brand": "Sony",
+    "description": "Les téléphones Sony Xperia prennent en charge l'eSIM sur certains modèles plus récents. Vérifiez votre modèle avant de tenter l'activation.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Les modèles Xperia plus récents comme Xperia 10 III Lite et supérieurs prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Sony Xperia avec eSIM",
+        "models": [
+          "Sony Xperia 10 III Lite",
+          "Sony Xperia 10 IV",
+          "Xperia 10V",
+          "Xperia 1 IV",
+          "Sony Xperia 5 IV",
+          "Sony Xperia 1 V",
+          "Sony Xperia Ace III",
+          "Sony Xperia 5 V",
+          "Sony Xperia 1 VI"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Sharp",
+    "description": "Sharp offre un support eSIM sur certains modèles AQUOS.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["Certains modèles Sharp AQUOS prennent en charge l'eSIM"],
+    "compatibleModels": [
+      {
+        "title": "Modèles Sharp avec eSIM",
+        "models": [
+          "Sharp AQUOS sense4 lite",
+          "Sharp AQUOS Sense6s",
+          "AQUOS sense 7",
+          "AQUOS sense 7plus",
+          "Sharp AQUOS Wish",
+          "AQUOS wish 2 SHG08",
+          "AQUOS wish3",
+          "AQUOS zero 6",
+          "Simple Sumaho6",
+          "Sharp AQUOS R7",
+          "Sharp AQUOS R8",
+          "Sharp AQUOS R8 Pro",
+          "Sharp Aquos sense8"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Rakuten",
+    "description": "Les téléphones Rakuten avec support eSIM incluent principalement les séries Mini, Big et Hand.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Tous les modèles Rakuten listés prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Rakuten avec eSIM",
+        "models": [
+          "Rakuten Mini",
+          "Rakuten Big-S",
+          "Rakuten Big",
+          "Rakuten Hand",
+          "Rakuten Hand 5G"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Honor",
+    "description": "Honor a ajouté le support eSIM sur certains appareils Magic et phares.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Honor Magic et certains appareils Honor plus récents prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Honor avec eSIM",
+        "models": [
+          "Honor Magic 4 Pro",
+          "Honor Magic 5 Pro",
+          "Honor Magic 6 Pro",
+          "Honor 90",
+          "Honor X8",
+          "Honor 200 Pro",
+          "Honor Magic V2",
+          "Honor Magic V3",
+          "Honor 400 Lite"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Vivo",
+    "description": "Vivo prend en charge l'eSIM sur certains modèles phares et de milieu de gamme, selon la région.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner SIM et Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Certains téléphones Vivo ne prennent en charge l'eSIM que dans des régions spécifiques, comme l'Europe."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Vivo avec eSIM",
+        "models": [
+          "Vivo X80 Pro",
+          "Vivo X90 Pro",
+          "Vivo X100 Pro",
+          "Vivo V29",
+          "Vivo V29 Lite",
+          "Vivo V29 Lite 5G (eSIM pris en charge uniquement en Europe)",
+          "Vivo V40",
+          "Vivo V40 lite",
+          "Vivo V40 SE",
+          "Vivo X200",
+          "Vivo X200s",
+          "Vivo X200 Pro",
+          "Vivo X200 FE"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Gemini",
+    "description": "Gemini PDA prend en charge l'eSIM sur certains modèles.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Gemini PDA prend en charge l'eSIM sur les modèles compatibles."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Gemini avec eSIM",
+        "models": ["Gemini PDA"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Fairphone",
+    "description": "Fairphone 4 et 5 prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["Fairphone 4 et Fairphone 5 prennent en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles Fairphone avec eSIM",
+        "models": ["Fairphone 4", "Fairphone 5"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "DOOGEE",
+    "description": "DOOGEE V30 prend en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["DOOGEE V30 prend en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles DOOGEE avec eSIM",
+        "models": ["DOOGEE V30"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "OnePlus",
+    "description": "Certains appareils OnePlus prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à SIM et Réseau",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["OnePlus 11 et plus récents prennent en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles OnePlus avec eSIM",
+        "models": [
+          "OnePlus Open",
+          "OnePlus 11",
+          "OnePlus 12",
+          "OnePlus 13",
+          "OnePlus 13R",
+          "OnePlus 13T"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "HAMMER",
+    "description": "Certains appareils robustes HAMMER prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Certains modèles HAMMER Blade et Explorer prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles HAMMER avec eSIM",
+        "models": ["HAMMER Blade 3", "HAMMER Explorer PRO", "HAMMER Blade 5G"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Nokia",
+    "description": "Certains modèles Nokia prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "Les appareils Nokia plus récents comme XR21, X30 et G60 5G prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Nokia avec eSIM",
+        "models": ["Nokia XR21", "Nokia X30", "Nokia G60 5G"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "myPhone",
+    "description": "Certains appareils myPhone prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["myPhone NOW eSIM prend en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles myPhone avec eSIM",
+        "models": ["myPhone NOW eSIM"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "OUKITEL",
+    "description": "Certains téléphones robustes OUKITEL prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "OUKITEL WP30 Pro et WP33 Pro prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles OUKITEL avec eSIM",
+        "models": ["OUKITEL WP30 Pro", "OUKITEL WP33 Pro"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Nuu",
+    "description": "Certains appareils Nuu prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["Nuu X5 prend en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles Nuu avec eSIM",
+        "models": ["Nuu X5"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "ZTE",
+    "description": "Certains modèles ZTE Nubia prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["ZTE Nubia Flip prend en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles ZTE avec eSIM",
+        "models": ["ZTE Nubia Flip"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "TCL",
+    "description": "Certains modèles TCL prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["TCL 50 5G prend en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles TCL avec eSIM",
+        "models": ["TCL 50 5G"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Asus",
+    "description": "Certains appareils Asus ROG et Zenfone prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": [
+      "La série Asus ROG Phone 9 et Zenfone 12 Ultra prennent en charge l'eSIM."
+    ],
+    "compatibleModels": [
+      {
+        "title": "Modèles Asus avec eSIM",
+        "models": [
+          "Asus ROG Phone 9",
+          "Asus ROG Phone 9 Pro",
+          "Asus Zenfone 12 Ultra"
+        ]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Realme",
+    "description": "Certains téléphones Realme prennent en charge l'eSIM.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["Realme 14 Pro+ et GT 7 prennent en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles Realme avec eSIM",
+        "models": ["Realme 14 Pro+", "Realme GT 7"]
+      }
+    ],
+    "incompatibleModels": []
+  },
+  {
+    "brand": "Nothing Phone",
+    "description": "Les téléphones Nothing prennent en charge l'eSIM sur certains modèles.",
+    "icon": null,
+    "steps": [
+      {
+        "description": "Vérifier via Paramètres",
+        "steps": [
+          "Aller aux Paramètres",
+          "Aller à Réseau et Internet",
+          "Sélectionner Réseau mobile",
+          "Chercher l'option \"Ajouter eSIM\""
+        ],
+        "images": []
+      }
+    ],
+    "compatibility": ["Nothing Phone 3 et 3a Pro prennent en charge l'eSIM."],
+    "compatibleModels": [
+      {
+        "title": "Modèles Nothing avec eSIM",
+        "models": ["Nothing Phone 3", "Nothing Phone 3a Pro"]
+      }
+    ],
+    "incompatibleModels": []
+  }
+]

@@ -1,29 +1,35 @@
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import phoneInstructions from "./data.json";
 import Button from "@/app/components/Button";
 import { getTranslations } from "next-intl/server";
+import { SupportedLocaleTypes } from "@/locales";
 import LanguageChanger from "@/app/components/language_selector/LanguageChanger.client";
+import { IBrandESIM, IESIMData } from "./types";
 
 //---------------------------------------------------------------
 
-export default async function Page() {
+const Page = async ({
+  params,
+}: {
+  params: Promise<{ locale: SupportedLocaleTypes }>;
+}) => {
+  const { locale } = await params;
   const translations = await getTranslations();
 
-  // Create unique ids for phone brands, handling duplicates
-  const phoneIds = phoneInstructions.map((phone, index) => {
-    const baseId = phone.brand.toLowerCase().replace(/\s+/g, "-");
-    // Check if this brand appears earlier in the array
+  //Choose the data translation file based on locale
+  const { default: data } = (await import(`./data/${locale}.json`)) as {
+    default: IESIMData;
+  };
 
-    const duplicateIndex = phoneInstructions
+  // Create unique ids for phone brands, handling duplicates
+  const phoneIds: string[] = data.map((phone, index) => {
+    const baseId = phone.brand.toLowerCase().replace(/\s+/g, "-");
+    const duplicateIndex = data
       .slice(0, index)
       .findIndex((p) => p.brand === phone.brand);
     return duplicateIndex !== -1 ? `${baseId}-${index}` : baseId;
   });
-
-  const models = translations("models");
-  console.log("models:", models);
 
   return (
     <div className="min-h-screen bg-gray-950">
@@ -40,22 +46,26 @@ export default async function Page() {
 
             <Button
               href="https://connectphone.eu/"
-              title="View our E-SIM offers"
+              title={translations(
+                "e_sim_compatibility_page.e_sim_offers_button_title"
+              )}
             />
           </div>
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 relative">
             <h1 className="text-2xl sm:text-3xl font-medium text-white">
-              E-SIM Compatibility Guide
+              {translations("e_sim_compatibility_page.title")}
             </h1>
-            {/* <LanguageChanger /> */}
+            <LanguageChanger />
           </div>
         </div>
 
         {/* Phone Brand Navigation */}
         <div className="flex flex-col gap-3">
-          <h3 className="text-white font-medium">Jump to your phone brand:</h3>
+          <h3 className="text-white font-medium">
+            {translations("e_sim_compatibility_page.jump_to_your_phone_brand")}
+          </h3>
           <div className="flex flex-wrap gap-2">
-            {phoneInstructions.map((phone, index) => (
+            {data.map((phone, index) => (
               <Link
                 key={index}
                 href={`#${phoneIds[index]}`}
@@ -86,20 +96,18 @@ export default async function Page() {
 
         {/* Quick Tips */}
         <div className="flex flex-col gap-3">
-          <h3 className="text-white font-medium text-xl">Quick Tips</h3>
+          <h3 className="text-white font-medium text-xl">
+            {translations("e_sim_compatibility_page.quick_tips.title")}
+          </h3>
           <div className="flex flex-col gap-2">
             <p className="text-gray-400 text-sm">
-              • If you see "Add eSIM" option in settings, your phone supports
-              eSIM
+              • {translations("e_sim_compatibility_page.quick_tips.1")}
             </p>
             <p className="text-gray-400 text-sm">
-              • Dial <strong className="text-lg">*#06#</strong> to check for EID
-              number (eSIM identifier), if you cannot see EID number, your phone
-              likely does NOT support eSIM
+              • {translations("e_sim_compatibility_page.quick_tips.2")}
             </p>
             <p className="text-gray-400 text-sm">
-              • Your device must be unlocked by carrier to use eSIMs from other
-              providers
+              • {translations("e_sim_compatibility_page.quick_tips.3")}
             </p>
           </div>
         </div>
@@ -107,26 +115,27 @@ export default async function Page() {
         {/* International Usage Info */}
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-medium text-xl">
-            Can eSIM be used internationally?
+            {translations(
+              "e_sim_compatibility_page.can_esim_be_used_internationally.title"
+            )}
           </h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Yes, as long as your phone is eSIM compatible and unlocked, you can
-            use an international eSIM while traveling abroad. That's one of its
-            biggest advantages for international travelers. You can purchase a
-            data plan online, install it before your trip, and activate it the
-            moment you arrive at your destination—no need to find a SIM card
-            store or deal with roaming fees.
+            {translations(
+              "e_sim_compatibility_page.can_esim_be_used_internationally.answer"
+            )}
           </p>
         </div>
 
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-medium text-xl">
-            Is my phone unlocked to use eSIM?
+            {translations(
+              "e_sim_compatibility_page.is_my_phone_unlocked.title"
+            )}
           </h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Regardless of the phone you have, it must be unlocked from carrier
-            restrictions to use eSIM. Some phones are tied to a specific mobile
-            operator and can only use data plans from that network.
+            {translations(
+              "e_sim_compatibility_page.is_my_phone_unlocked.answer"
+            )}
           </p>
         </div>
 
@@ -136,11 +145,11 @@ export default async function Page() {
         {/* Manual Instructions */}
         <div className="flex flex-col gap-8 sm:gap-10">
           <h2 className="text-xl font-medium text-white">
-            Manual Check Instructions
+            {translations("e_sim_compatibility_page.manual_check_instructions")}
           </h2>
 
           <div className="flex flex-col gap-8 sm:gap-10">
-            {phoneInstructions.map((phone, index) => (
+            {data.map((phone: IBrandESIM, index: number) => (
               <div
                 key={index}
                 id={phoneIds[index]}
@@ -162,14 +171,17 @@ export default async function Page() {
                     {/* Steps / Methods */}
                     <div className="flex flex-col">
                       <h4 className="text-gray-300 text-sm font-medium mb-6">
-                        Methods to check:
+                        {translations(
+                          "e_sim_compatibility_page.methods_to_check"
+                        )}
                       </h4>
 
                       {phone.steps.map((method, methodIndex) => (
                         <div key={methodIndex}>
                           <div className="flex flex-col gap-2 py-3">
                             <h5 className="text-gray-300 text-xs font-medium">
-                              Method {methodIndex + 1}:
+                              {translations("e_sim_compatibility_page.method")}{" "}
+                              {methodIndex + 1}:
                             </h5>
 
                             {/* Steps list */}
@@ -225,7 +237,9 @@ export default async function Page() {
                         phone.compatibleModels.length > 0 && (
                           <div className="flex flex-col gap-3">
                             <h4 className="text-gray-300 text-sm font-medium">
-                              Compatible Models:
+                              {translations(
+                                "e_sim_compatibility_page.compatible_models"
+                              )}
                             </h4>
                             {phone.compatibleModels.map(
                               (modelGroup, groupIndex) => (
@@ -259,7 +273,9 @@ export default async function Page() {
                         phone.incompatibleModels.length > 0 && (
                           <div className="flex flex-col gap-3">
                             <h4 className="text-gray-300 text-sm font-medium">
-                              NOT Compatible Models:
+                              {translations(
+                                "e_sim_compatibility_page.not_compatible_models"
+                              )}
                             </h4>
                             {phone.incompatibleModels.map(
                               (modelGroup, groupIndex) => (
@@ -291,7 +307,9 @@ export default async function Page() {
                       {/* Compatibility */}
                       <div className="flex flex-col gap-3">
                         <h4 className="text-gray-300 text-sm font-medium">
-                          Compatibility:
+                          {translations(
+                            "e_sim_compatibility_page.compatibility"
+                          )}
                         </h4>
                         <div className="flex flex-col">
                           {phone.compatibility.map((item, compatIndex) => (
@@ -310,7 +328,7 @@ export default async function Page() {
                   </div>
                 </div>
 
-                {index < phoneInstructions.length - 1 && (
+                {index < data.length - 1 && (
                   <div className="border-t border-gray-800"></div>
                 )}
               </div>
@@ -329,4 +347,6 @@ export default async function Page() {
       </a>
     </div>
   );
-}
+};
+
+export default Page;

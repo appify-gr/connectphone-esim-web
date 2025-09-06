@@ -5,5 +5,31 @@
   "fr": "French",
   "es": "Spanish",
   "not_found_message": "The page could not be found.",
-  "error_message": "An error occurred."
+  "error_message": "An error occurred.",
+  "e_sim_compatibility_guide_title": "eSIM Compatibility Guide",
+  "e_sim_compatibility_page": {
+    "title": "eSIM Compatibility Guide",
+    "e_sim_offers_button_title": "View our E-SIM offers",
+    "jump_to_your_phone_brand": "Jump to your phone brand:",
+    "quick_tips": {
+      "title": "Quick Tips",
+      "1": "If you see 'Add eSIM' option in settings, your phone supports eSIM",
+      "2": "Dial *#06# to check for EID number (eSIM identifier), if you cannot see EID number, your phone likely does NOT support eSIM",
+      "3": "Your device must be unlocked by carrier to use eSIMs from other providers"
+    },
+    "can_esim_be_used_internationally": {
+      "title": "Can eSIM be used internationally?",
+      "answer": "Yes, as long as your phone is eSIM compatible and unlocked, you can use an international eSIM while traveling abroad. That's one of its biggest advantages for international travelers. You can purchase a data plan online, install it before your trip, and activate it the moment you arrive at your destination—no need to find a SIM card store or deal with roaming fees."
+    },
+    "is_my_phone_unlocked": {
+      "title": "Is my phone unlocked to use eSIM?",
+      "answer": "Regardless of the phone you have, it must be unlocked from carrier restrictions to use eSIM. Some phones are tied to a specific mobile operator and can only use data plans from that network."
+    },
+    "manual_check_instructions": "Manual Check Instructions",
+    "methods_to_check": "Methods to check",
+    "method": "Method",
+    "compatible_models": "Compatible Models",
+    "not_compatible_models": "Not Compatible Models",
+    "compatibility": "Compatibility"
+  }
 }

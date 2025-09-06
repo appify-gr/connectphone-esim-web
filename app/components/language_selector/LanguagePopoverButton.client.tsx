@@ -38,7 +38,7 @@ export default function LanguageButton({
 
   return (
     <button
-      className={`flex items-center justify-between gap-2 text-xs px-3 py-2 rounded transition-colors duration-200 ${
+      className={`cursor-pointer flex items-center justify-between gap-2 text-xs px-3 py-2 rounded transition-colors duration-200 ${
         locale === currentLocale
           ? "bg-gray-700 text-gray-200 cursor-default"
           : "bg-transparent hover:bg-gray-800 text-gray-400 hover:text-gray-200"
