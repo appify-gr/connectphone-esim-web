@@ -22,6 +22,9 @@ const Page = async ({
     default: IESIMData;
   };
 
+  const currentRoute = `/e-sim-compatibility-guide`;
+  //  {translations(`${currentRoute}.example_key`)}
+
   // Create unique ids for phone brands, handling duplicates
   const phoneIds: string[] = data.map((phone, index) => {
     const baseId = phone.brand.toLowerCase().replace(/\s+/g, "-");
@@ -46,14 +49,12 @@ const Page = async ({
 
             <Button
               href="https://connectphone.eu/"
-              title={translations(
-                "e_sim_compatibility_page.e_sim_offers_button_title"
-              )}
+              title={translations(`${currentRoute}.e_sim_offers_button_title`)}
             />
           </div>
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 relative">
             <h1 className="text-2xl sm:text-3xl font-medium text-white">
-              {translations("e_sim_compatibility_page.title")}
+              {translations(`${currentRoute}.title`)}
             </h1>
             <LanguageChanger />
           </div>
@@ -62,7 +63,7 @@ const Page = async ({
         {/* Phone Brand Navigation */}
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-medium">
-            {translations("e_sim_compatibility_page.jump_to_your_phone_brand")}
+            {translations(`${currentRoute}.jump_to_your_phone_brand`)}
           </h3>
           <div className="flex flex-wrap gap-2">
             {data.map((phone, index) => (
@@ -97,17 +98,17 @@ const Page = async ({
         {/* Quick Tips */}
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-medium text-xl">
-            {translations("e_sim_compatibility_page.quick_tips.title")}
+            {translations(`${currentRoute}.quick_tips.title`)}
           </h3>
           <div className="flex flex-col gap-2">
             <p className="text-gray-400 text-sm">
-              • {translations("e_sim_compatibility_page.quick_tips.1")}
+              • {translations(`${currentRoute}.quick_tips.1`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations("e_sim_compatibility_page.quick_tips.2")}
+              • {translations(`${currentRoute}.quick_tips.2`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations("e_sim_compatibility_page.quick_tips.3")}
+              • {translations(`${currentRoute}.quick_tips.3`)}
             </p>
           </div>
         </div>
@@ -116,26 +117,22 @@ const Page = async ({
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-medium text-xl">
             {translations(
-              "e_sim_compatibility_page.can_esim_be_used_internationally.title"
+              `${currentRoute}.can_esim_be_used_internationally.title`
             )}
           </h3>
           <p className="text-gray-400 text-sm leading-relaxed">
             {translations(
-              "e_sim_compatibility_page.can_esim_be_used_internationally.answer"
+              `${currentRoute}.can_esim_be_used_internationally.answer`
             )}
           </p>
         </div>
 
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-medium text-xl">
-            {translations(
-              "e_sim_compatibility_page.is_my_phone_unlocked.title"
-            )}
+            {translations(`${currentRoute}.is_my_phone_unlocked.title`)}
           </h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            {translations(
-              "e_sim_compatibility_page.is_my_phone_unlocked.answer"
-            )}
+            {translations(`${currentRoute}.is_my_phone_unlocked.answer`)}
           </p>
         </div>
 
@@ -145,7 +142,7 @@ const Page = async ({
         {/* Manual Instructions */}
         <div className="flex flex-col gap-8 sm:gap-10">
           <h2 className="text-xl font-medium text-white">
-            {translations("e_sim_compatibility_page.manual_check_instructions")}
+            {translations(`${currentRoute}.manual_check_instructions`)}
           </h2>
 
           <div className="flex flex-col gap-8 sm:gap-10">
@@ -171,16 +168,14 @@ const Page = async ({
                     {/* Steps / Methods */}
                     <div className="flex flex-col">
                       <h4 className="text-gray-300 text-sm font-medium mb-6">
-                        {translations(
-                          "e_sim_compatibility_page.methods_to_check"
-                        )}
+                        {translations(`${currentRoute}.methods_to_check`)}
                       </h4>
 
                       {phone.steps.map((method, methodIndex) => (
                         <div key={methodIndex}>
                           <div className="flex flex-col gap-2 py-3">
                             <h5 className="text-gray-300 text-xs font-medium">
-                              {translations("e_sim_compatibility_page.method")}{" "}
+                              {translations(`${currentRoute}.method`)}{" "}
                               {methodIndex + 1}:
                             </h5>
 
@@ -238,7 +233,7 @@ const Page = async ({
                           <div className="flex flex-col gap-3">
                             <h4 className="text-gray-300 text-sm font-medium">
                               {translations(
-                                "e_sim_compatibility_page.compatible_models"
+                                `${currentRoute}.compatible_models`
                               )}
                             </h4>
                             {phone.compatibleModels.map(
@@ -274,7 +269,7 @@ const Page = async ({
                           <div className="flex flex-col gap-3">
                             <h4 className="text-gray-300 text-sm font-medium">
                               {translations(
-                                "e_sim_compatibility_page.not_compatible_models"
+                                `${currentRoute}.not_compatible_models`
                               )}
                             </h4>
                             {phone.incompatibleModels.map(
@@ -307,9 +302,7 @@ const Page = async ({
                       {/* Compatibility */}
                       <div className="flex flex-col gap-3">
                         <h4 className="text-gray-300 text-sm font-medium">
-                          {translations(
-                            "e_sim_compatibility_page.compatibility"
-                          )}
+                          {translations(`${currentRoute}.compatibility`)}
                         </h4>
                         <div className="flex flex-col">
                           {phone.compatibility.map((item, compatIndex) => (

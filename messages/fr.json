@@ -6,10 +6,11 @@
   "fr": "Français",
   "es": "Espagnol",
   "not_found_message": "La page n'a pas pu être trouvée.",
-  "in_development": "En développement",
   "error_message": "Une erreur s'est produite.",
-  "e_sim_compatibility_guide_title": "Guide de compatibilité eSIM",
-  "e_sim_compatibility_page": {
+  "/": {
+    "in_development": "En développement"
+  },
+  "/e-sim-compatibility-guide": {
     "title": "Guide de compatibilité eSIM",
     "e_sim_offers_button_title": "Voir nos offres de eSIM",
     "jump_to_your_phone_brand": "Sauter à votre marque de téléphone:",
