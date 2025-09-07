@@ -2,9 +2,9 @@ import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/app/components/Button";
+import LanguageSelector from "@/app/components/LanguageSelector";
 import { getTranslations } from "next-intl/server";
 import { SupportedLocaleTypes } from "@/locales";
-import LanguageChanger from "@/app/components/language_selector/LanguageChanger.client";
 import { IBrandESIM, IESIMData } from "./types";
 
 //---------------------------------------------------------------
@@ -53,10 +53,15 @@ const Page = async ({
             />
           </div>
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 relative">
-            <h1 className="text-2xl sm:text-3xl font-medium text-white">
-              {translations(`${currentRoute}.title`)}
-            </h1>
-            <LanguageChanger />
+            <div className="flex items-center gap-4">
+              <h1 className="text-2xl sm:text-3xl font-medium text-white">
+                {translations(`${currentRoute}.title`)}
+              </h1>
+              <LanguageSelector
+                currentLocale={locale}
+                currentPath={currentRoute}
+              />
+            </div>
           </div>
         </div>
 
