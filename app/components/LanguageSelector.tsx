@@ -1,5 +1,6 @@
 import { CircleFlagLanguage } from "react-circle-flags";
 import { SupportedLocaleTypes } from "@/locales";
+import { getTranslations } from "next-intl/server";
 
 interface LanguageSelectorProps {
   currentLocale: SupportedLocaleTypes;
@@ -14,14 +15,14 @@ const supportedLanguages = [
   { code: "de" as SupportedLocaleTypes, name: "Deutsch", flag: "de" },
 ] as const;
 
-const LanguageSelector = ({
+const LanguageSelector = async ({
   currentLocale,
   currentPath,
 }: LanguageSelectorProps) => {
   const currentLanguage =
     supportedLanguages.find((lang) => lang.code === currentLocale) ||
     supportedLanguages[0];
-
+  const translations = await getTranslations();
   return (
     <>
       {/* Hidden checkbox to control drawer state */}
@@ -130,7 +131,7 @@ const LanguageSelector = ({
                   <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col">
                       <span className="text-sm font-medium">
-                        {language.name}
+                        {translations(language.flag)}
                       </span>
                       <span className="text-xs text-gray-500 uppercase">
                         {language.code}
