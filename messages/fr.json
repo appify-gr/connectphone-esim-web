@@ -34,5 +34,36 @@
     "compatible_models": "Modèles compatibles",
     "not_compatible_models": "Modèles non compatibles",
     "compatibility": "Compatibilité"
+  },
+  "/e-sim-installation-guide": {
+    "title": "Guide d'installation eSIM",
+    "check_device_compatibility": "Vérifier la compatibilité de l'appareil",
+    "first_of_all": "Tout d'abord, pour tout appareil, vous devez <strong>vérifier si votre appareil est compatible avec la technologie eSIM</strong>. Tous les appareils ne prennent pas en charge eSIM, il est donc crucial de vérifier cela en premier.",
+    "to_check_compatibility": "Pour vérifier la compatibilité, visitez notre <link>guide de compatibilité</link>",
+    "e_sim_offers_button_title": "Voir nos offres de eSIM",
+    "jump_to_your_phone_brand": "Sauter à votre marque de téléphone:",
+    "quick_tips": {
+      "title": "Conseils rapides d'installation",
+      "1": "Installez votre eSIM la veille de votre voyage pour une expérience fluide",
+      "2": "Utilisez la méthode du code QR lorsque cela est possible - c'est plus rapide et plus fiable",
+      "3": "Conservez toujours votre SIM principale pour les appels et utilisez eSIM pour les données",
+      "4": "Assurez-vous que l'itinérance des données est activée sur votre eSIM après l'installation"
+    },
+    "general_steps": {
+      "title": "Étapes générales d'installation",
+      "description": "Nous recommandons d'installer la veille de votre voyage et de l'activer en sélectionnant notre eSIM pour 'données mobiles' dans les paramètres de votre téléphone, une fois que vous êtes arrivé à votre destination. Utilisez l'installation par code QR si vous avez un autre appareil à partir duquel vous pouvez scanner, sinon suivez les instructions de configuration manuelle."
+    },
+    "what_you_need": {
+      "title": "Ce dont vous avez besoin avant de commencer",
+      "1": "Un téléphone compatible avec la technologie eSIM",
+      "2": "L'e-mail d'installation avec le code QR de votre fournisseur",
+      "3": "Connexion Internet stable pendant l'installation"
+    },
+    "installation_instructions": "Instructions d'installation par appareil",
+    "what_you_need_for_device": "Ce dont vous avez besoin",
+    "installation_steps": "Étapes d'installation",
+    "step_images": "Images des étapes",
+    "important_notes": "Notes importantes",
+    "general_tips_for_device": "Conseils généraux"
   }
 }

@@ -34,5 +34,36 @@
     "compatible_models": "Kompatible Modelle",
     "not_compatible_models": "Nicht kompatible Modelle",
     "compatibility": "Kompatibilität"
+  },
+  "/e-sim-installation-guide": {
+    "title": "eSIM Installationsanleitung",
+    "check_device_compatibility": "Überprüfen Sie die Gerätekompatibilität",
+    "first_of_all": "Zunächst müssen Sie für jedes Gerät <strong>überprüfen, ob Ihr Gerät mit der eSIM-Technologie kompatibel ist</strong>. Nicht alle Geräte unterstützen eSIM, daher ist es wichtig, dies zuerst zu überprüfen.",
+    "to_check_compatibility": "Um die Kompatibilität zu überprüfen, besuchen Sie unseren <link>Kompatibilitätsleitfaden</link>",
+    "e_sim_offers_button_title": "Unsere E-SIM-Angebote anzeigen",
+    "jump_to_your_phone_brand": "Springen Sie zu Ihrer Telefonmarke:",
+    "quick_tips": {
+      "title": "Schnelle Installationstipps",
+      "1": "Installieren Sie Ihre eSIM am Tag vor Ihrer Reise für ein reibungsloses Erlebnis",
+      "2": "Verwenden Sie die QR-Code-Methode, wenn möglich - sie ist schneller und zuverlässiger",
+      "3": "Behalten Sie Ihre primäre SIM-Karte für Anrufe und verwenden Sie eSIM für Daten",
+      "4": "Stellen Sie sicher, dass das Daten-Roaming auf Ihrer eSIM nach der Installation aktiviert ist"
+    },
+    "general_steps": {
+      "title": "Allgemeine Installationsschritte",
+      "description": "Wir empfehlen, die Installation am Tag vor Ihrer Reise durchzuführen und sie zu aktivieren, indem Sie unsere eSIM in den Einstellungen Ihres Telefons für 'mobile Daten' auswählen, sobald Sie an Ihrem Zielort ankommen. Verwenden Sie die QR-Code-Installation, wenn Sie ein anderes Gerät haben, von dem Sie scannen können, oder folgen Sie alternativ den Anweisungen zur manuellen Einrichtung."
+    },
+    "what_you_need": {
+      "title": "Was Sie vor dem Start benötigen",
+      "1": "Ein Telefon, das mit eSIM-Technologie kompatibel ist",
+      "2": "Die Installations-E-Mail mit QR-Code von Ihrem Anbieter",
+      "3": "Stabile Internetverbindung während der Installation"
+    },
+    "installation_instructions": "Installationsanweisungen nach Gerät",
+    "what_you_need_for_device": "Was Sie benötigen",
+    "installation_steps": "Installationsschritte",
+    "step_images": "Schrittbilder",
+    "important_notes": "Wichtige Hinweise",
+    "general_tips_for_device": "Allgemeine Tipps"
   }
 }

@@ -15,6 +15,12 @@ export const routing = defineRouting({
       fr: "/guide-de-compatibilité-e-sim",
       es: "/guía-de-compatibilidad-e-sim",
     },
+    "/e-sim-installation-guide": {
+      en: "/e-sim-installation-guide",
+      de: "/e-sim-installationsanleitung",
+      fr: "/guide-d'installation-e-sim",
+      es: "/guía-de-instalación-e-sim",
+    },
   },
 });
 

@@ -33,5 +33,36 @@
     "compatible_models": "Compatible Models",
     "not_compatible_models": "Not Compatible Models",
     "compatibility": "Compatibility"
+  },
+  "/e-sim-installation-guide": {
+    "title": "eSIM Installation Guide",
+    "check_device_compatibility": "Check Device Compatibility",
+    "first_of_all": "First of all, for any device, you need to <strong>check if your device is compatible with eSIM technology</strong>. Not all devices support eSIM, so it's crucial to verify this first.",
+    "to_check_compatibility": "To check the compatibility, visit our <link>compatibility guide</link>",
+    "e_sim_offers_button_title": "View our E-SIM offers",
+    "jump_to_your_phone_brand": "Jump to your phone brand:",
+    "quick_tips": {
+      "title": "Quick Installation Tips",
+      "1": "Install your eSIM the day before your trip for a smooth experience",
+      "2": "Use QR code method when possible - it's faster and more reliable",
+      "3": "Always keep your primary SIM for calls and use eSIM for data",
+      "4": "Make sure data roaming is enabled on your eSIM after installation"
+    },
+    "general_steps": {
+      "title": "General Installation Steps",
+      "description": "We recommend installing the day before your trip and activating it by selecting our eSIM for 'mobile data' on your phone settings, once you arrive at your destination. Use QR Code Installation if you have another device you can scan from, alternatively follow the Manual setup instructions."
+    },
+    "what_you_need": {
+      "title": "What You Need Before Starting",
+      "1": "A phone compatible with eSIM technology",
+      "2": "The installation email with QR code from your provider",
+      "3": "Stable internet connection during installation"
+    },
+    "installation_instructions": "Installation Instructions by Device",
+    "what_you_need_for_device": "What You Need",
+    "installation_steps": "Installation Steps",
+    "step_images": "Step Images",
+    "important_notes": "Important Notes",
+    "general_tips_for_device": "General Tips"
   }
 }

@@ -34,5 +34,36 @@
     "compatible_models": "Modelos compatibles",
     "not_compatible_models": "Modelos no compatibles",
     "compatibility": "Compatibilidad"
+  },
+  "/e-sim-installation-guide": {
+    "title": "Guía de Instalación de eSIM",
+    "check_device_compatibility": "Verificar la compatibilidad del dispositivo",
+    "first_of_all": "Primero que nada, para cualquier dispositivo, necesita <strong>verificar si su dispositivo es compatible con la tecnología eSIM</strong>. No todos los dispositivos son compatibles con eSIM, por lo que es crucial verificar esto primero.",
+    "to_check_compatibility": "Para verificar la compatibilidad, visite nuestra <link>guía de compatibilidad</link>",
+    "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
+    "jump_to_your_phone_brand": "Saltar a su marca de teléfono:",
+    "quick_tips": {
+      "title": "Consejos Rápidos de Instalación",
+      "1": "Instale su eSIM el día antes de su viaje para una experiencia fluida",
+      "2": "Utilice el método de código QR cuando sea posible: es más rápido y confiable",
+      "3": "Siempre mantenga su SIM primaria para llamadas y use eSIM para datos",
+      "4": "Asegúrese de que el roaming de datos esté habilitado en su eSIM después de la instalación"
+    },
+    "general_steps": {
+      "title": "Pasos Generales de Instalación",
+      "description": "Recomendamos instalar el día antes de su viaje y activarlo seleccionando nuestra eSIM para 'datos móviles' en la configuración de su teléfono, una vez que llegue a su destino. Utilice la instalación con código QR si tiene otro dispositivo desde el cual pueda escanear, alternativamente siga las instrucciones de configuración manual."
+    },
+    "what_you_need": {
+      "title": "Lo Que Necesita Antes de Comenzar",
+      "1": "Un teléfono compatible con la tecnología eSIM",
+      "2": "El correo electrónico de instalación con el código QR de su proveedor",
+      "3": "Conexión a Internet estable durante la instalación"
+    },
+    "installation_instructions": "Instrucciones de Instalación por Dispositivo",
+    "what_you_need_for_device": "Lo Que Necesita",
+    "installation_steps": "Pasos de Instalación",
+    "step_images": "Imágenes de Pasos",
+    "important_notes": "Notas Importantes",
+    "general_tips_for_device": "Consejos Generales"
   }
 }

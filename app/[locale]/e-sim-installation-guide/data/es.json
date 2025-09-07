@@ -1,0 +1,273 @@
+[
+  {
+    "brand": "iPhone",
+    "description": "Apple fue una de las primeras marcas en adoptar completamente la tecnología eSIM. Sigue esta guía completa para instalar y activar tu eSIM en tu dispositivo iPhone.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un iPhone compatible con la tecnología eSIM",
+      "El correo de instalación con el código QR",
+      "Conexión a internet estable"
+    ],
+    "methods": [
+      {
+        "title": "Instalación con código QR",
+        "description": "Usa este método si tienes otro dispositivo para escanear el código QR de tu correo de instalación.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Agregar eSIM",
+            "description": "Ve a Ajustes > Servicio móvil/Celular y toca \"Agregar eSIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_1.png"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Usar código QR",
+            "description": "Toca \"Usar un código QR\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_2.png"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Escanear código QR",
+            "description": "Escanea el código QR recibido por correo o ingresa los datos de la eSIM manualmente (si no puedes escanear)",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_3.png"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Activar eSIM",
+            "description": "Después de escanear el código QR, activa la eSIM tocando continuar",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_4.png"
+          },
+          {
+            "stepNumber": 5,
+            "title": "Activación de eSIM completada",
+            "description": "¡La activación de la eSIM se ha completado! Asegúrate de tener dos barras de señal de red arriba",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_5.png"
+          },
+          {
+            "stepNumber": 6,
+            "title": "Seleccionar una etiqueta para tu plan",
+            "description": "Toca la nueva eSIM instalada para renombrarla",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_6.png"
+          },
+          {
+            "stepNumber": 7,
+            "title": "Personalizar la etiqueta de la eSIM",
+            "description": "Renómbrala a eSIM.sm o el nombre que prefieras",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_7.png"
+          },
+          {
+            "stepNumber": 8,
+            "title": "Establecer línea predeterminada",
+            "description": "Configura tu SIM primaria como línea predeterminada",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_8.png"
+          },
+          {
+            "stepNumber": 9,
+            "title": "Configurar línea predeterminada para iMessage y FaceTime",
+            "description": "Configura tu SIM primaria para iMessage y FaceTime",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_9.png"
+          },
+          {
+            "stepNumber": 10,
+            "title": "eSIM instalada",
+            "description": "Ve a Ajustes > Servicio móvil/Celular y asegúrate de que los datos móviles estén configurados para tu eSIM",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_10.png"
+          },
+          {
+            "stepNumber": 11,
+            "title": "Activar roaming en la eSIM",
+            "description": "Activa el roaming de datos en la nueva eSIM",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_11.png"
+          },
+          {
+            "stepNumber": 12,
+            "title": "Activar modo de datos reducido en la eSIM",
+            "description": "Toca \"Modo de datos\" y asegúrate de que \"Modo de datos reducido\" esté seleccionado",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_12.png"
+          }
+        ],
+        "manualSetup": {
+          "title": "Instrucciones de configuración manual iOS",
+          "description": "Si no puedes escanear el código QR, sigue estas instrucciones de configuración manual:",
+          "steps": [
+            {
+              "description": "Acceder a la configuración de eSIM",
+              "steps": [
+                "Ve a Ajustes > Celular > Agregar eSIM o Configurar Servicio Móvil > Usar código QR en tu dispositivo",
+                "Toca \"Ingresar detalles manualmente\" e ingresa la dirección SM-DP+ y el código de activación copiándolos",
+                "Toca \"Siguiente\", luego toca \"Continuar\" dos veces y espera un momento"
+              ]
+            },
+            {
+              "description": "Completar configuración",
+              "steps": [
+                "Tu eSIM se conectará a la red, esto puede tardar unos minutos, luego toca \"Listo\"",
+                "Elige una etiqueta para tu nuevo plan eSIM",
+                "Elige \"Principal\" para tu línea predeterminada, luego toca \"Continuar\"",
+                "Elige la línea \"Principal\" que quieres usar con iMessage y FaceTime para tu Apple ID, luego toca \"Continuar\"",
+                "Elige tu nuevo plan eSIM para datos móviles, luego toca \"Continuar\""
+              ]
+            }
+          ]
+        },
+        "importantNotes": [
+          "Si no estás en el país de destino, necesitas seleccionar tu SIM primaria como \"Datos móviles\" y cambiarla al llegar",
+          "Recomendamos instalar la eSIM un día antes de tu viaje y activarla al llegar a tu destino"
+        ]
+      }
+    ],
+    "generalTips": [
+      "Instala la eSIM un día antes de tu viaje",
+      "Actívala para datos móviles solo al llegar a tu destino",
+      "Mantén tu SIM primaria para llamadas y mensajes",
+      "Asegúrate de que el roaming de datos esté activado en tu eSIM"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "description": "Samsung ha integrado soporte para eSIM en varios de sus modelos más recientes. Sigue esta guía paso a paso para instalar y activar tu eSIM en un dispositivo Samsung.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un dispositivo Samsung compatible con eSIM",
+      "El correo de instalación con el código QR",
+      "Conexión a internet estable"
+    ],
+    "methods": [
+      {
+        "title": "Instalación con código QR",
+        "description": "La forma más sencilla de instalar tu eSIM en un dispositivo Samsung es escaneando el código QR.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Abrir Configuración",
+            "description": "Ve a Ajustes > Conexiones",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Acceder a Administrador de tarjeta SIM",
+            "description": "Selecciona 'Administrador de tarjeta SIM'",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Agregar plan móvil",
+            "description": "Toca 'Agregar plan móvil'",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Agregar usando código QR",
+            "description": "Selecciona 'Agregar usando código QR'",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step4.webp"
+          },
+          {
+            "stepNumber": 5,
+            "title": "Habilitar Roaming de Datos",
+            "description": "Asegúrate de que el roaming de datos esté habilitado.",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step5.webp"
+          }
+        ]
+      }
+    ],
+    "generalTips": [
+      "Asegúrate de que los datos móviles estén habilitados para la eSIM después de la instalación",
+      "Activa el roaming de datos si viajas al extranjero",
+      "Mantén tu SIM física como respaldo para llamadas y mensajes"
+    ]
+  },
+  {
+    "brand": "Google Pixel",
+    "description": "Los teléfonos Google Pixel cuentan con una de las implementaciones más completas de la tecnología eSIM. Sigue esta guía para instalar tu eSIM en tu Pixel.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un Google Pixel compatible con eSIM",
+      "El correo de instalación con el código QR",
+      "Conexión a internet estable"
+    ],
+    "methods": [
+      {
+        "title": "Instalación con código QR",
+        "description": "Usa esta opción para instalar rápidamente tu eSIM en tu Google Pixel.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Acceder a la Configuración de Red",
+            "description": "Ve a Configuración > Red e Internet",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Abrir el Administrador de SIM",
+            "description": "Toca en \"Administrador de SIM\" o busca el \"+\" junto a la sección de SIMs",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Descargar eSIM",
+            "description": "Toca \"Descargar eSIM\" y escanea el código QR",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Activar Itinerancia de Datos",
+            "description": "Asegúrate de tener activada la itinerancia de datos",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step4.webp"
+          }
+        ]
+      }
+    ],
+    "generalTips": [
+      "Mantén activado el roaming de datos para asegurar la conectividad en el extranjero",
+      "Puedes cambiar entre SIM física y eSIM desde el menú de red",
+      "Instala tu eSIM antes de viajar para evitar problemas de conexión"
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "description": "Xiaomi ha comenzado a añadir soporte para eSIM en algunos de sus modelos más recientes. Aquí te mostramos cómo instalar tu eSIM en un dispositivo Xiaomi compatible.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un dispositivo Xiaomi compatible con eSIM",
+      "El correo de instalación con el código QR",
+      "Conexión a internet estable"
+    ],
+    "methods": [
+      {
+        "title": "Instalación con código QR",
+        "description": "La instalación de la eSIM en Xiaomi es rápida y sencilla con el código QR.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Acceder a Redes Móviles",
+            "description": "Ve a Configuración > Redes móviles",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Activar eSIM",
+            "description": "Enciende la eSIM y toca en \"Administrar eSIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Agregar eSIM",
+            "description": "Toca \"Agregar eSIM\" y escanea el código QR",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Configurar Ajustes",
+            "description": "Asegúrate de que tu eSIM esté configurada para datos móviles, las llamadas en tu línea principal y que la itinerancia de datos esté activada",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step4.webp"
+          }
+        ]
+      }
+    ],
+    "generalTips": [
+      "Verifica que tu modelo Xiaomi sea compatible con eSIM antes de comenzar",
+      "Activa datos móviles en la eSIM después de instalarla",
+      "Asegúrate de tener habilitado el roaming de datos si viajas"
+    ]
+  }
+]

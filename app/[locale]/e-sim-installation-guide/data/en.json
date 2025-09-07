@@ -1,0 +1,345 @@
+[
+  {
+    "brand": "iPhone",
+    "description": "Apple was one of the first brands to fully embrace eSIM technology. Follow this comprehensive guide to install and activate your eSIM on your iPhone device.",
+    "icon": null,
+    "whatYouNeed": [
+      "An iPhone compatible with eSIM technology",
+      "The installation email with QR code",
+      "Stable internet connection"
+    ],
+    "methods": [
+      {
+        "title": "QR Code Installation",
+        "description": "Use this method if you have another device to scan the QR code from your installation email.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Add eSIM",
+            "description": "Go to Settings > Mobile Service/Cellular and tap \"add eSIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_1.png"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Use QR code",
+            "description": "Tap \"Use a QR code\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_2.png"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Scan QR code",
+            "description": "Scan the QR code received by email or enter details of eSIM manually (if you can't scan)",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_3.png"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Activate eSIM",
+            "description": "After scanning the QR code, activate the eSIM by tapping continue",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_4.png"
+          },
+          {
+            "stepNumber": 5,
+            "title": "eSIM Activation completed",
+            "description": "Activation of eSIM completed! Make sure you have 2 network signal bars on top",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_5.png"
+          },
+          {
+            "stepNumber": 6,
+            "title": "Select a label for your plan",
+            "description": "Tap the new eSIM installed to rename it",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_6.png"
+          },
+          {
+            "stepNumber": 7,
+            "title": "Customize the label of the eSIM",
+            "description": "Rename it to eSIM.sm or your preferred name",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_7.png"
+          },
+          {
+            "stepNumber": 8,
+            "title": "Set default phone line",
+            "description": "Set your Primary SIM as Default Line",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_8.png"
+          },
+          {
+            "stepNumber": 9,
+            "title": "Set default line for iMessage and Facetime",
+            "description": "Set your Primary SIM for iMessage & FaceTime",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_9.png"
+          },
+          {
+            "stepNumber": 10,
+            "title": "eSIM is installed",
+            "description": "Go to Settings > Mobile Service/Cellular and make sure Cellular Data is set to your eSIM",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_10.png"
+          },
+          {
+            "stepNumber": 11,
+            "title": "Enable roaming on eSIM",
+            "description": "Enable data roaming on the new eSIM",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_11.png"
+          },
+          {
+            "stepNumber": 12,
+            "title": "Enable low data mode on eSIM",
+            "description": "Tap \"Data Mode\" and make sure \"Low Data Mode\" is selected",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_12.png"
+          }
+        ],
+        "manualSetup": {
+          "title": "Manual iOS setup instructions",
+          "description": "If you cannot scan the QR code, follow these manual setup instructions:",
+          "steps": [
+            {
+              "description": "Access eSIM settings",
+              "steps": [
+                "Go to Settings > Cellular/Mobile Data > Add eSIM or Set up Cellular/Mobile Service > Use QR Code on your device",
+                "Tap \"Enter Details Manually\" and enter the SM-DP+ Address and Activation Code by copying them",
+                "Tap \"Next\", then tap \"Continue\" twice and wait for a while"
+              ]
+            },
+            {
+              "description": "Complete setup",
+              "steps": [
+                "Your eSIM will connect to the network, this may take a few minutes, then tap \"Done\"",
+                "Choose a label for your new eSIM plan",
+                "Choose \"Primary\" for your default line, then tap \"Continue\"",
+                "Choose the \"Primary\" you want to use with iMessage and FaceTime for your Apple ID, then tap \"Continue\"",
+                "Choose your new eSIM plan for cellular/mobile data, then tap \"Continue\""
+              ]
+            }
+          ]
+        },
+        "importantNotes": [
+          "If you are not in the destination country, you need to select your primary SIM as \"Cellular Data\" and change it after you arrive at your destination",
+          "We recommend installing the day before your trip and activating it once you arrive at your destination"
+        ]
+      }
+    ],
+    "generalTips": [
+      "Install the eSIM the day before your trip",
+      "Only activate it for mobile data once you reach your destination",
+      "Keep your primary SIM for calls and messages",
+      "Make sure data roaming is enabled on your eSIM"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "description": "Samsung devices offer straightforward eSIM installation. Follow these steps to set up your eSIM on your Samsung Galaxy device.",
+    "icon": null,
+    "whatYouNeed": [
+      "A Samsung phone compatible with eSIM technology",
+      "The installation email with QR code",
+      "Stable internet connection"
+    ],
+    "methods": [
+      {
+        "title": "QR Code Installation",
+        "description": "Follow these steps to install your eSIM using the QR code method.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Access Connections",
+            "description": "Go to Settings > Connection",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Open SIM manager",
+            "description": "Tap on \"SIM manager\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Add eSIM",
+            "description": "Tap \"Add eSIM/Mobile plan\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Scan QR Code",
+            "description": "Click \"Scan QR Code\" and scan your installation QR code",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step4.webp"
+          },
+          {
+            "stepNumber": 5,
+            "title": "Enable Data Roaming",
+            "description": "Make sure you have data roaming enabled!!",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step5.webp"
+          }
+        ],
+        "manualSetup": {
+          "title": "Samsung Manual setup instructions",
+          "description": "If you cannot scan the QR code, follow these manual setup instructions:",
+          "steps": [
+            {
+              "description": "Manual setup process",
+              "steps": [
+                "Go to \"Settings\", tap \"Connections\", then tap \"SIM card manager\" on your device",
+                "Tap \"Add mobile plan\", then tap \"Scan carrier QR code\"",
+                "Tap \"Enter activation code\"",
+                "Enter the SM-DP+ Address & Activation Code by copying it, tap \"Connect\", then tap \"Confirm\""
+              ]
+            }
+          ]
+        },
+        "importantNotes": [
+          "Make sure you have data roaming enabled after installation",
+          "Your eSIM should be set for mobile data while calls remain on your main line"
+        ]
+      }
+    ],
+    "generalTips": [
+      "Install the day before your trip",
+      "Activate by selecting the eSIM for mobile data once at destination",
+      "Ensure data roaming is enabled",
+      "Keep your primary SIM for calls and messages"
+    ]
+  },
+  {
+    "brand": "Google Pixel",
+    "description": "Google Pixel devices have native eSIM support. Follow these simple steps to install your eSIM on your Pixel device.",
+    "icon": null,
+    "whatYouNeed": [
+      "A Google Pixel phone compatible with eSIM technology",
+      "The installation email with QR code",
+      "Stable internet connection"
+    ],
+    "methods": [
+      {
+        "title": "QR Code Installation",
+        "description": "Use this method to install your eSIM using the QR code from your installation email.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Access Network Settings",
+            "description": "Go to Settings > Network & Internet",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Open SIM manager",
+            "description": "Tap on \"SIM manager\" or look for the \"+\" next to SIMs section",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Download eSIM",
+            "description": "Tap \"Download eSIM\" and scan the QR code",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Enable Data Roaming",
+            "description": "Make sure you have data roaming enabled",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step4.webp"
+          }
+        ],
+        "manualSetup": {
+          "title": "Pixel Manual setup instructions",
+          "description": "If you cannot scan the QR code, follow these manual setup instructions:",
+          "steps": [
+            {
+              "description": "Access manual setup",
+              "steps": [
+                "Go to \"Settings\", tap \"Network & internet\", then tap \"(+)\" next to the SIMs section",
+                "If it's not available tap \"SIMs/Mobile network\" on your device",
+                "Tap \"Download a SIM instead?\", then tap \"Next\"",
+                "Tap \"Use a different network\" if you need to confirm your network"
+              ]
+            },
+            {
+              "description": "Enter activation details",
+              "steps": [
+                "Tap \"Need help?\", then tap \"Enter it manually\"",
+                "Enter the SM-DP+ Address & Activation Code by copying it, tap \"Continue\", then tap \"Download/Activate\"",
+                "Tap \"Settings/Done\" when you see the Download Finished screen"
+              ]
+            }
+          ]
+        },
+        "importantNotes": [
+          "Ensure data roaming is enabled after installation",
+          "Your eSIM should be set for mobile data usage"
+        ]
+      }
+    ],
+    "generalTips": [
+      "Install the eSIM before your trip",
+      "Activate for mobile data once you reach your destination",
+      "Keep your primary SIM for calls and messages",
+      "Enable data roaming on the eSIM"
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "description": "Xiaomi devices with eSIM support offer easy installation. Follow these steps to set up your eSIM on your Xiaomi device.",
+    "icon": null,
+    "whatYouNeed": [
+      "A Xiaomi phone compatible with eSIM technology",
+      "The installation email with QR code",
+      "Stable internet connection",
+      "Device must be unlocked for international networks"
+    ],
+    "methods": [
+      {
+        "title": "QR Code Installation",
+        "description": "Follow these steps to install your eSIM using the QR code method on your Xiaomi device.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Access Mobile Networks",
+            "description": "Go to Settings > Mobile networks",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Enable eSIM",
+            "description": "Turn on eSIM and tap on \"Manage eSIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Add eSIM",
+            "description": "Tap \"Add eSIM\" and scan the QR code",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Configure Settings",
+            "description": "Ensure your eSIM is set for mobile data, calls are on your main line, and data roaming is enabled",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step4.webp"
+          }
+        ],
+        "manualSetup": {
+          "title": "Xiaomi Manual setup instructions",
+          "description": "If you cannot scan the QR code, follow these manual setup instructions:",
+          "steps": [
+            {
+              "description": "Manual setup process",
+              "steps": [
+                "Go to \"Settings\", tap \"Mobile networks\", then tap \"Manage eSIM\"",
+                "Tap \"Add eSIM\"",
+                "Instead of scanning the QR code, push \"Add manually instead\"",
+                "Tap \"Use activation code\"",
+                "Enter the SM-DP+ Address & Activation Code by copying it, tap Ok, then tap \"Add\"",
+                "Tap \"Got it\" when you see the Download Finished screen"
+              ]
+            }
+          ]
+        },
+        "importantNotes": [
+          "If you plan to use your Xiaomi phone with international virtual SIM cards, ensure your device is unlocked to support other networks worldwide",
+          "You need to have an internet connection when installing a new eSIM profile",
+          "Ensure data roaming is enabled for international usage"
+        ]
+      }
+    ],
+    "generalTips": [
+      "Ensure your device is unlocked for international networks",
+      "Install with internet connection available",
+      "Set eSIM for mobile data, keep main SIM for calls",
+      "Enable data roaming for international usage"
+    ]
+  }
+]

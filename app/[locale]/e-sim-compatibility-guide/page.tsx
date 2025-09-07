@@ -23,7 +23,6 @@ const Page = async ({
   };
 
   const currentRoute = `/e-sim-compatibility-guide`;
-  //  {translations(`${currentRoute}.example_key`)}
 
   // Create unique ids for phone brands, handling duplicates
   const phoneIds: string[] = data.map((phone, index) => {

@@ -1,0 +1,273 @@
+[
+  {
+    "brand": "iPhone",
+    "description": "Apple a été l’une des premières marques à adopter pleinement la technologie eSIM. Suivez ce guide complet pour installer et activer votre eSIM sur votre iPhone.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un iPhone compatible avec la technologie eSIM",
+      "L’e-mail d’installation avec le code QR",
+      "Une connexion internet stable"
+    ],
+    "methods": [
+      {
+        "title": "Installation avec code QR",
+        "description": "Utilisez cette méthode si vous disposez d’un autre appareil pour scanner le code QR de votre e-mail d’installation.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Ajouter une eSIM",
+            "description": "Allez dans Réglages > Données cellulaires et touchez \"Ajouter une eSIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_1.png"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Utiliser un code QR",
+            "description": "Touchez \"Utiliser un code QR\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_2.png"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Scanner le code QR",
+            "description": "Scannez le code QR reçu par e-mail ou saisissez manuellement les informations de l’eSIM (si le scan n’est pas possible)",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_3.png"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Activer l’eSIM",
+            "description": "Après avoir scanné le code QR, activez l’eSIM en appuyant sur Continuer",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_4.png"
+          },
+          {
+            "stepNumber": 5,
+            "title": "Activation de l’eSIM terminée",
+            "description": "L’activation de l’eSIM est terminée ! Vérifiez que deux barres de réseau apparaissent en haut de l’écran",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_5.png"
+          },
+          {
+            "stepNumber": 6,
+            "title": "Choisir une étiquette pour votre forfait",
+            "description": "Touchez la nouvelle eSIM installée pour la renommer",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_6.png"
+          },
+          {
+            "stepNumber": 7,
+            "title": "Personnaliser l’étiquette de l’eSIM",
+            "description": "Renommez-la en eSIM.sm ou selon le nom de votre choix",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_7.png"
+          },
+          {
+            "stepNumber": 8,
+            "title": "Définir la ligne par défaut",
+            "description": "Définissez votre SIM principale comme ligne par défaut",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_8.png"
+          },
+          {
+            "stepNumber": 9,
+            "title": "Définir la ligne par défaut pour iMessage et FaceTime",
+            "description": "Définissez votre SIM principale pour iMessage et FaceTime",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_9.png"
+          },
+          {
+            "stepNumber": 10,
+            "title": "eSIM installée",
+            "description": "Allez dans Réglages > Données cellulaires et assurez-vous que l’eSIM est bien sélectionnée pour les données mobiles",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_10.png"
+          },
+          {
+            "stepNumber": 11,
+            "title": "Activer l’itinérance sur l’eSIM",
+            "description": "Activez l’itinérance des données sur la nouvelle eSIM",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_11.png"
+          },
+          {
+            "stepNumber": 12,
+            "title": "Activer le mode données réduites sur l’eSIM",
+            "description": "Touchez \"Mode de données\" et assurez-vous que \"Mode données réduites\" est sélectionné",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/iphone/esim_iphone_step_12.png"
+          }
+        ],
+        "manualSetup": {
+          "title": "Instructions de configuration manuelle iOS",
+          "description": "Si vous ne pouvez pas scanner le code QR, suivez ces instructions de configuration manuelle :",
+          "steps": [
+            {
+              "description": "Accéder aux réglages eSIM",
+              "steps": [
+                "Allez dans Réglages > Données cellulaires > Ajouter une eSIM ou Configurer le service cellulaire > Utiliser un code QR",
+                "Touchez \"Entrer les informations manuellement\" et saisissez l’adresse SM-DP+ ainsi que le code d’activation",
+                "Appuyez sur \"Suivant\", puis deux fois sur \"Continuer\" et patientez"
+              ]
+            },
+            {
+              "description": "Finaliser la configuration",
+              "steps": [
+                "Votre eSIM se connectera au réseau, cela peut prendre quelques minutes, puis touchez \"OK\"",
+                "Choisissez une étiquette pour votre nouveau forfait eSIM",
+                "Sélectionnez \"Principal\" comme ligne par défaut, puis touchez \"Continuer\"",
+                "Choisissez la ligne \"Principal\" que vous souhaitez utiliser avec iMessage et FaceTime, puis touchez \"Continuer\"",
+                "Sélectionnez votre nouveau forfait eSIM pour les données mobiles, puis touchez \"Continuer\""
+              ]
+            }
+          ]
+        },
+        "importantNotes": [
+          "Si vous n’êtes pas encore dans le pays de destination, sélectionnez votre SIM principale comme \"Données mobiles\" et changez-la à l’arrivée",
+          "Nous recommandons d’installer l’eSIM un jour avant le départ et de l’activer à l’arrivée"
+        ]
+      }
+    ],
+    "generalTips": [
+      "Installez l’eSIM un jour avant votre voyage",
+      "Activez-la pour les données mobiles uniquement à l’arrivée",
+      "Gardez votre SIM principale pour les appels et SMS",
+      "Vérifiez que l’itinérance des données est activée sur votre eSIM"
+    ]
+  },
+  {
+    "brand": "Samsung",
+    "description": "Samsung a intégré la compatibilité eSIM dans plusieurs de ses modèles récents. Suivez ce guide pas à pas pour installer et activer votre eSIM sur un appareil Samsung.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un appareil Samsung compatible eSIM",
+      "L’e-mail d’installation avec le code QR",
+      "Une connexion internet stable"
+    ],
+    "methods": [
+      {
+        "title": "Installation avec code QR",
+        "description": "La façon la plus simple d’installer votre eSIM sur un Samsung est de scanner le code QR.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Accéder aux Connexions",
+            "description": "Allez dans Paramètres > Connexions",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Ouvrir le Gestionnaire de SIM",
+            "description": "Appuyez sur \"Gestionnaire de SIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Ajouter une eSIM",
+            "description": "Appuyez sur \"Ajouter eSIM/Forfait mobile\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Scanner le Code QR",
+            "description": "Cliquez sur \"Scanner le code QR\" et scannez votre code QR d’installation",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step4.webp"
+          },
+          {
+            "stepNumber": 5,
+            "title": "Activer l’Itinérance des Données",
+            "description": "Assurez-vous que l’itinérance des données est activée !!",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/samsung/step5.webp"
+          }
+        ]
+      }
+    ],
+    "generalTips": [
+      "Assurez-vous que les données mobiles sont activées pour l’eSIM après l’installation",
+      "Activez l’itinérance des données si vous voyagez à l’étranger",
+      "Gardez votre carte SIM physique comme secours pour les appels et SMS"
+    ]
+  },
+  {
+    "brand": "Google Pixel",
+    "description": "Les téléphones Google Pixel offrent l’une des meilleures implémentations de la technologie eSIM. Suivez ce guide pour installer votre eSIM sur votre Pixel.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un Google Pixel compatible eSIM",
+      "L’e-mail d’installation avec le code QR",
+      "Une connexion internet stable"
+    ],
+    "methods": [
+      {
+        "title": "Installation avec code QR",
+        "description": "Utilisez cette option pour installer rapidement votre eSIM sur votre Google Pixel.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Accéder aux Paramètres Réseau",
+            "description": "Allez dans Paramètres > Réseau et Internet",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Ouvrir le Gestionnaire de SIM",
+            "description": "Appuyez sur \"Gestionnaire de SIM\" ou recherchez le \"+\" à côté de la section SIMs",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Télécharger l’eSIM",
+            "description": "Appuyez sur \"Télécharger l’eSIM\" et scannez le code QR",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Activer l’Itinérance des Données",
+            "description": "Assurez-vous que l’itinérance des données est activée",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/google/step4.webp"
+          }
+        ]
+      }
+    ],
+    "generalTips": [
+      "Gardez l’itinérance des données activée pour garantir la connectivité à l’étranger",
+      "Vous pouvez basculer entre SIM physique et eSIM dans le menu Réseau",
+      "Installez votre eSIM avant de voyager pour éviter tout problème de connexion"
+    ]
+  },
+  {
+    "brand": "Xiaomi",
+    "description": "Xiaomi a commencé à intégrer la compatibilité eSIM dans certains de ses modèles récents. Voici comment installer votre eSIM sur un appareil Xiaomi compatible.",
+    "icon": null,
+    "whatYouNeed": [
+      "Un appareil Xiaomi compatible eSIM",
+      "L’e-mail d’installation avec le code QR",
+      "Une connexion internet stable"
+    ],
+    "methods": [
+      {
+        "title": "Installation avec code QR",
+        "description": "L’installation d’une eSIM sur Xiaomi est simple et rapide avec un code QR.",
+        "steps": [
+          {
+            "stepNumber": 1,
+            "title": "Accéder aux Réseaux Mobiles",
+            "description": "Allez dans Paramètres > Réseaux mobiles",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step1.webp"
+          },
+          {
+            "stepNumber": 2,
+            "title": "Activer l’eSIM",
+            "description": "Activez l’eSIM et appuyez sur \"Gérer l’eSIM\"",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step2.webp"
+          },
+          {
+            "stepNumber": 3,
+            "title": "Ajouter une eSIM",
+            "description": "Appuyez sur \"Ajouter eSIM\" et scannez le code QR",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step3.webp"
+          },
+          {
+            "stepNumber": 4,
+            "title": "Configurer les Paramètres",
+            "description": "Assurez-vous que votre eSIM est définie pour les données mobiles, que les appels passent par votre ligne principale et que l’itinérance des données est activée",
+            "image": "https://wpj67lcy6bslrzxl.public.blob.vercel-storage.com/connectphone-esim-web/e-sim-installation-guide/xiaomi/step4.webp"
+          }
+        ]
+      }
+    ],
+    "generalTips": [
+      "Vérifiez que votre modèle Xiaomi est compatible eSIM avant de commencer",
+      "Activez les données mobiles sur l’eSIM après l’installation",
+      "Assurez-vous que l’itinérance des données est activée si vous voyagez"
+    ]
+  }
+]
