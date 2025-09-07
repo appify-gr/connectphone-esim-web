@@ -12,7 +12,6 @@ const supportedLanguages = [
   { code: "es" as SupportedLocaleTypes, name: "Español", flag: "es" },
   { code: "fr" as SupportedLocaleTypes, name: "Français", flag: "fr" },
   { code: "de" as SupportedLocaleTypes, name: "Deutsch", flag: "de" },
-  { code: "it" as SupportedLocaleTypes, name: "Italiano", flag: "it" },
 ] as const;
 
 const LanguageSelector = ({
