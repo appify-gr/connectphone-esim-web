@@ -1,27 +1,19 @@
 import { CircleFlagLanguage } from "react-circle-flags";
-import { SupportedLocaleTypes } from "@/locales";
+import { SupportedLocaleTypes, supportedLocales } from "@/locales";
 import { getTranslations } from "next-intl/server";
 
-interface LanguageSelectorProps {
-  currentLocale: SupportedLocaleTypes;
-  currentPath: string;
-}
-
-// Define supported languages with their display names and flag codes
-const supportedLanguages = [
-  { code: "en" as SupportedLocaleTypes, name: "English", flag: "en" },
-  { code: "es" as SupportedLocaleTypes, name: "Español", flag: "es" },
-  { code: "fr" as SupportedLocaleTypes, name: "Français", flag: "fr" },
-  { code: "de" as SupportedLocaleTypes, name: "Deutsch", flag: "de" },
-] as const;
+//-------------------------------------------------------------------------
 
 const LanguageSelector = async ({
   currentLocale,
   currentPath,
-}: LanguageSelectorProps) => {
+}: {
+  currentLocale: SupportedLocaleTypes;
+  currentPath: string;
+}) => {
   const currentLanguage =
-    supportedLanguages.find((lang) => lang.code === currentLocale) ||
-    supportedLanguages[0];
+    supportedLocales.find((lang) => lang === currentLocale) ||
+    supportedLocales[0];
   const translations = await getTranslations();
   return (
     <>
@@ -31,18 +23,18 @@ const LanguageSelector = async ({
       {/* Language Selector Button */}
       <label
         htmlFor="language-drawer"
-        className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity duration-200"
+        className="flex items-center gap-2 cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-200"
       >
         <CircleFlagLanguage
-          languageCode={currentLanguage.flag}
+          languageCode={currentLanguage}
           height={12}
           width={12}
         />
-        <span className="text-sm text-gray-400 hover:text-gray-300 transition-colors duration-200">
-          {currentLanguage.code.toUpperCase()}
+        <span className="text-sm text-gray-400">
+          {currentLanguage.toUpperCase()}
         </span>
         <svg
-          className="w-3 h-3 text-gray-400 hover:text-gray-300 transition-all duration-200 peer-checked:rotate-180"
+          className="w-3 h-3 text-gray-400"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -59,7 +51,7 @@ const LanguageSelector = async ({
       {/* Backdrop Overlay */}
       <label
         htmlFor="language-drawer"
-        className="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-300 z-40 cursor-pointer"
+        className="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 invisible peer-checked:opacity-100 peer-checked:visible transition-all duration-300 z-40"
       />
 
       {/* Bottom Drawer */}
@@ -68,6 +60,7 @@ const LanguageSelector = async ({
           {/* Drawer Header */}
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-3">
+              {/* Icon */}
               <svg
                 className="w-5 h-5 text-gray-400"
                 fill="none"
@@ -85,7 +78,7 @@ const LanguageSelector = async ({
                 Select Language
               </h3>
             </div>
-
+            {/* Close Drawer Button */}
             <label
               htmlFor="language-drawer"
               className="cursor-pointer p-2 hover:bg-gray-800 rounded-full transition-colors duration-200"
@@ -108,36 +101,36 @@ const LanguageSelector = async ({
 
           {/* Language Options List */}
           <div className="flex flex-col">
-            {supportedLanguages.map((language, index) => (
+            {supportedLocales.map((language, index) => (
               <form
-                key={language.code}
+                key={language}
                 method="GET"
-                action={`/${language.code}${currentPath}`}
+                action={`/${language}${currentPath}`}
               >
                 <button
                   type="submit"
                   className={`cursor-pointer w-full flex items-center gap-4 px-4 py-3 text-left transition-colors duration-200 ${
-                    currentLocale === language.code
+                    currentLocale === language
                       ? "bg-gray-800/50 text-white"
                       : "text-gray-300 hover:bg-gray-800/30 hover:text-white"
                   } ${index > 0 ? "border-t border-gray-700/50" : ""}`}
-                  disabled={currentLocale === language.code}
+                  disabled={currentLocale === language}
                 >
                   <CircleFlagLanguage
-                    languageCode={language.flag}
+                    languageCode={language}
                     height={20}
                     width={20}
                   />
                   <div className="flex items-center justify-between w-full">
                     <div className="flex flex-col">
                       <span className="text-sm font-medium">
-                        {translations(language.flag)}
+                        {translations(language)}
                       </span>
                       <span className="text-xs text-gray-500 uppercase">
-                        {language.code}
+                        {language}
                       </span>
                     </div>
-                    {currentLocale === language.code && (
+                    {currentLocale === language && (
                       <div className="w-2 h-2 bg-green-400 rounded-full flex-shrink-0"></div>
                     )}
                   </div>
