@@ -28,6 +28,9 @@
       "title": "¿Está mi teléfono desbloqueado para usar eSIM?",
       "answer": "Independientemente del teléfono que tenga, debe estar desbloqueado de las restricciones del operador para usar eSIM. Algunos teléfonos están atados a un operador móvil específico y solo pueden usar planes de datos de esa red."
     },
+    "next_step_installation": "Próximo paso: Instalación",
+    "after_confirming_compatibility": "Después de confirmar que su dispositivo es compatible con la tecnología eSIM, <strong>el siguiente paso es instalar su eSIM</strong>. El proceso de instalación varía ligeramente según el tipo de dispositivo y el sistema operativo.",
+    "check_installation_guide": "Para obtener instrucciones detalladas de instalación paso a paso, visite nuestra <link>guía de instalación</link>",
     "manual_check_instructions": "Instrucciones de verificación manual",
     "methods_to_check": "étodos de verificación",
     "method": "étodo",

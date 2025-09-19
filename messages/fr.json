@@ -28,6 +28,9 @@
       "title": "Mon téléphone est-il déverrouillé pour utiliser eSIM?",
       "answer": "Quel que soit le téléphone que vous avez, il doit être déverrouillé des restrictions de l'opérateur pour utiliser eSIM. Certains téléphones sont liés à un opérateur mobile spécifique et ne peuvent utiliser que des forfaits de données de ce réseau."
     },
+    "next_step_installation": "Prochain étape : Installation",
+    "after_confirming_compatibility": "Après avoir confirmé que votre appareil est compatible avec la technologie eSIM, <strong>la prochaine étape est d'installer votre eSIM</strong>. Le processus d'installation varie légèrement en fonction du type d'appareil et du système d'exploitation.",
+    "check_installation_guide": "Pour des instructions d'installation détaillées étape par étape, visitez notre <link>guide d'installation</link>",
     "manual_check_instructions": "Instructions de vérification manuelle",
     "methods_to_check": "éthodes de vérification",
     "method": "éthode",

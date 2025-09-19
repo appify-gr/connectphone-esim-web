@@ -28,6 +28,9 @@
       "title": "Ist mein Telefon entsperrt, um eSIM zu verwenden?",
       "answer": "Unabhängig davon, welches Telefon Sie haben, muss es von den Einschränkungen des Anbieters entsperrt sein, um eSIM verwenden zu können. Einige Telefone sind an einen bestimmten Mobilfunkanbieter gebunden und können nur Datenpläne von diesem Netzwerk nutzen."
     },
+    "next_step_installation": "Nächster Schritt: Installation",
+    "after_confirming_compatibility": "Nachdem Sie bestätigt haben, dass Ihr Gerät mit der eSIM-Technologie kompatibel ist, <strong>ist der nächste Schritt die Installation Ihrer eSIM</strong>. Der Installationsprozess variiert je nach Gerätetyp und Betriebssystem leicht.",
+    "check_installation_guide": "Für detaillierte Schritt-für-Schritt-Installationsanweisungen besuchen Sie unseren <link>Installationsleitfaden</link>",
     "manual_check_instructions": "Manuelle Überprüfungsanweisungen",
     "methods_to_check": "Überprüfungsmethoden",
     "method": "Methode",

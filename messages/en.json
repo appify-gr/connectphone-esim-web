@@ -27,6 +27,9 @@
       "title": "Is my phone unlocked to use eSIM?",
       "answer": "Regardless of the phone you have, it must be unlocked from carrier restrictions to use eSIM. Some phones are tied to a specific mobile operator and can only use data plans from that network."
     },
+    "next_step_installation": "Next Step: Installation",
+    "after_confirming_compatibility": "After confirming your device is compatible with eSIM technology, <strong>the next step is to install your eSIM</strong>. The installation process varies slightly depending on your device type and operating system.",
+    "check_installation_guide": "For detailed step-by-step installation instructions, visit our <link>installation guide</link>",
     "manual_check_instructions": "Manual Check Instructions",
     "methods_to_check": "Methods to check",
     "method": "Method",

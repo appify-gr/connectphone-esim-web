@@ -1,3 +1,4 @@
+// page.tsx
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -137,6 +138,35 @@ const Page = async ({
           </h3>
           <p className="text-gray-400 text-sm leading-relaxed">
             {translations(`${currentRoute}.is_my_phone_unlocked.answer`)}
+          </p>
+        </div>
+
+        {/* eSIM Installation Guide Reference */}
+        <div className="flex flex-col gap-3">
+          <h3 className="text-white font-medium text-xl">
+            {translations(`${currentRoute}.next_step_installation`)}
+          </h3>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations.rich(
+              `${currentRoute}.after_confirming_compatibility`,
+              {
+                strong: (chunks) => (
+                  <strong className="text-gray-300">{chunks}</strong>
+                ),
+              }
+            )}
+          </p>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations.rich(`${currentRoute}.check_installation_guide`, {
+              link: (chunks) => (
+                <Link
+                  href="/e-sim-installation-guide"
+                  className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200"
+                >
+                  {chunks}
+                </Link>
+              ),
+            })}
           </p>
         </div>
 
