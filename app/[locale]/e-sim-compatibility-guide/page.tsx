@@ -1,4 +1,5 @@
-// page.tsx
+// app/[locale]/e-sim-compatibility-guide/page.tsx
+
 import { ArrowUp } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -11,20 +12,30 @@ import { IBrandESIM, IESIMData } from "./types";
 
 //---------------------------------------------------------------
 
-export const metadata: Metadata = {
-  title: "E-SIM Compatibility Guide - ConnectPhone E-SIM",
-  description: "Find out if your device is E-SIM compatible",
-  keywords: [
-    "eSIM",
-    "eSIM compatibility",
-    "check eSIM support",
-    "phone compatibility",
-    "iPhone eSIM",
-    "Android eSIM",
-    "Samsung eSIM",
-    "Google Pixel eSIM",
-  ],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: SupportedLocaleTypes }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const translations = await getTranslations({ locale });
+  const slug = translations("/e-sim-compatibility-guide.url");
+
+  return {
+    title: translations("/e-sim-compatibility-guide.metadata.title"),
+    description: translations(
+      "/e-sim-compatibility-guide.metadata.description"
+    ),
+    keywords: translations.raw("/e-sim-compatibility-guide.metadata.keywords"),
+    openGraph: {
+      title: translations("/e-sim-compatibility-guide.metadata.title"),
+      description: translations(
+        "/e-sim-compatibility-guide.metadata.description"
+      ),
+      url: `https://www.connectphone-esim.com/${locale}/${slug}`,
+    },
+  };
+}
 
 //------------------------------------------------------------------
 

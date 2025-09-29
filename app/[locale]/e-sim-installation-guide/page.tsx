@@ -1,3 +1,4 @@
+// app/[locale]/e-sim-installation-guide/page.tsx
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,21 +11,28 @@ import { IInstallationGuide, IInstallationData } from "./types";
 
 //---------------------------------------------------------------
 
-export const metadata: Metadata = {
-  title: "E-SIM Installation Guide - ConnectPhone E-SIM",
-  description: "Step-by-step guide to install your E-SIM on various devices",
-  keywords: [
-    "eSIM installation",
-    "install eSIM",
-    "eSIM setup",
-    "QR code eSIM",
-    "activate eSIM",
-    "iPhone eSIM setup",
-    "Android eSIM setup",
-    "eSIM activation guide",
-  ],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: SupportedLocaleTypes }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const translations = await getTranslations({ locale });
+  const slug = translations("/e-sim-installation-guide.url");
 
+  return {
+    title: translations("/e-sim-installation-guide.metadata.title"),
+    description: translations("/e-sim-installation-guide.metadata.description"),
+    keywords: translations.raw("/e-sim-installation-guide.metadata.keywords"),
+    openGraph: {
+      title: translations("/e-sim-installation-guide.metadata.title"),
+      description: translations(
+        "/e-sim-installation-guide.metadata.description"
+      ),
+      url: `https://connectphone.eu/${locale}/${slug}`,
+    },
+  };
+}
 
 //-------------------------------------------------------------------
 

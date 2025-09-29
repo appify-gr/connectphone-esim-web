@@ -11,6 +11,7 @@
     "in_development": "En desarrollo"
   },
   "/e-sim-compatibility-guide": {
+    "url": "guía-de-compatibilidad-e-sim",
     "title": "Guía de compatibilidad con eSIM",
     "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
     "jump_to_your_phone_brand": "Saltar a su marca de teléfono:",
@@ -36,9 +37,24 @@
     "method": "étodo",
     "compatible_models": "Modelos compatibles",
     "not_compatible_models": "Modelos no compatibles",
-    "compatibility": "Compatibilidad"
+    "compatibility": "Compatibilidad",
+    "metadata": {
+      "title": "E-SIM Guía de compatibilidad - ConnectPhone E-SIM",
+      "description": "Descubra si su dispositivo es compatible con E-SIM",
+      "keywords": [
+        "eSIM",
+        "compatibilidad eSIM",
+        "comprobar compatibilidad eSIM",
+        "compatibilidad del teléfono",
+        "iPhone eSIM",
+        "Android eSIM",
+        "Samsung eSIM",
+        "Google Pixel eSIM"
+      ]
+    }
   },
   "/e-sim-installation-guide": {
+    "url": "guía-de-instalación-e-sim",
     "title": "Guía de Instalación de eSIM",
     "check_device_compatibility": "Verificar la compatibilidad del dispositivo",
     "first_of_all": "Primero que nada, para cualquier dispositivo, necesita <strong>verificar si su dispositivo es compatible con la tecnología eSIM</strong>. No todos los dispositivos son compatibles con eSIM, por lo que es crucial verificar esto primero.",
@@ -67,6 +83,20 @@
     "installation_steps": "Pasos de Instalación",
     "step_images": "Imágenes de Pasos",
     "important_notes": "Notas Importantes",
-    "general_tips_for_device": "Consejos Generales"
+    "general_tips_for_device": "Consejos Generales",
+    "metadata": {
+      "title": "E-SIM Guía de Instalación - ConnectPhone E-SIM",
+      "description": "Guía paso a paso para instalar su E-SIM en varios dispositivos",
+      "keywords": [
+        "instalación de eSIM",
+        "instalar eSIM",
+        "configuración de eSIM",
+        "código QR eSIM",
+        "activar eSIM",
+        "configuración de eSIM en iPhone",
+        "configuración de eSIM en Android",
+        "guía de activación eSIM"
+      ]
+    }
   }
 }
