@@ -1,6 +1,7 @@
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import Button from "@/app/components/Button";
 import LanguageSelector from "@/app/components/LanguageSelector";
 import { getTranslations } from "next-intl/server";
@@ -8,6 +9,24 @@ import { SupportedLocaleTypes } from "@/locales";
 import { IInstallationGuide, IInstallationData } from "./types";
 
 //---------------------------------------------------------------
+
+export const metadata: Metadata = {
+  title: "E-SIM Installation Guide - ConnectPhone E-SIM",
+  description: "Step-by-step guide to install your E-SIM on various devices",
+  keywords: [
+    "eSIM installation",
+    "install eSIM",
+    "eSIM setup",
+    "QR code eSIM",
+    "activate eSIM",
+    "iPhone eSIM setup",
+    "Android eSIM setup",
+    "eSIM activation guide",
+  ],
+};
+
+
+//------------------------------------------
 
 const Page = async ({
   params,

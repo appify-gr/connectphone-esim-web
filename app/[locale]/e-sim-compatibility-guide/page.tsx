@@ -1,5 +1,6 @@
 // page.tsx
 import { ArrowUp } from "lucide-react";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/app/components/Button";
@@ -9,6 +10,23 @@ import { SupportedLocaleTypes } from "@/locales";
 import { IBrandESIM, IESIMData } from "./types";
 
 //---------------------------------------------------------------
+
+export const metadata: Metadata = {
+  title: "E-SIM Compatibility Guide - ConnectPhone E-SIM",
+  description: "Find out if your device is E-SIM compatible",
+  keywords: [
+    "eSIM",
+    "eSIM compatibility",
+    "check eSIM support",
+    "phone compatibility",
+    "iPhone eSIM",
+    "Android eSIM",
+    "Samsung eSIM",
+    "Google Pixel eSIM",
+  ],
+};
+
+//------------------------------------------
 
 const Page = async ({
   params,
