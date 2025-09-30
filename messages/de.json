@@ -11,6 +11,7 @@
     "in_development": "In Entwicklung"
   },
   "/e-sim-compatibility-guide": {
+    "url": "e-sim-kompatibilitätsleitfaden",
     "title": "eSIM-Kompatibilitätsleitfaden",
     "e_sim_offers_button_title": "Unsere E-SIM-Angebote anzeigen",
     "jump_to_your_phone_brand": "Springen Sie zu Ihrer Telefonmarke:",
@@ -36,9 +37,24 @@
     "method": "Methode",
     "compatible_models": "Kompatible Modelle",
     "not_compatible_models": "Nicht kompatible Modelle",
-    "compatibility": "Kompatibilität"
+    "compatibility": "Kompatibilität",
+    "metadata": {
+      "title": "E-SIM-Kompatibilitätsleitfaden - ConnectPhone E-SIM",
+      "description": "Finden Sie heraus, ob Ihr Gerät E-SIM-kompatibel ist",
+      "keywords": [
+        "eSIM",
+        "eSIM-Kompatibilität",
+        "eSIM-Unterstützung prüfen",
+        "Telefonkompatibilität",
+        "iPhone eSIM",
+        "Android eSIM",
+        "Samsung eSIM",
+        "Google Pixel eSIM"
+      ]
+    }
   },
   "/e-sim-installation-guide": {
+    "url": "e-sim-installationsanleitung",
     "title": "eSIM Installationsanleitung",
     "check_device_compatibility": "Überprüfen Sie die Gerätekompatibilität",
     "first_of_all": "Zunächst müssen Sie für jedes Gerät <strong>überprüfen, ob Ihr Gerät mit der eSIM-Technologie kompatibel ist</strong>. Nicht alle Geräte unterstützen eSIM, daher ist es wichtig, dies zuerst zu überprüfen.",
@@ -67,19 +83,20 @@
     "installation_steps": "Installationsschritte",
     "step_images": "Schrittbilder",
     "important_notes": "Wichtige Hinweise",
-    "general_tips_for_device": "Allgemeine Tipps"
-  },
-  "footer": {
-    "description": "Ihr vertrauenswürdiger Anbieter für globale eSIM-Konnektivität. Bleiben Sie überall verbunden mit unseren zuverlässigen und erschwinglichen eSIM-Lösungen.",
-    "quick_links": "Schnellzugriff",
-    "compatibility_guide": "Kompatibilitätsleitfaden",
-    "installation_guide": "Installationsanleitung",
-    "browse_plans": "Tarife durchsuchen",
-    "support": "Support & Rechtliches",
-    "contact_us": "Kontakt",
-    "privacy_policy": "Datenschutz",
-    "terms_of_service": "Nutzungsbedingungen",
-    "all_rights_reserved": "Alle Rechte vorbehalten",
-    "part_of": "Teil von"
+    "general_tips_for_device": "Allgemeine Tipps",
+    "metadata": {
+      "title": "E-SIM Installationsanleitung - ConnectPhone E-SIM",
+      "description": "Schritt-für-Schritt-Anleitung zur Installation Ihrer E-SIM auf verschiedenen Geräten",
+      "keywords": [
+        "eSIM-Installation",
+        "eSIM installieren",
+        "eSIM-Einrichtung",
+        "QR-Code eSIM",
+        "eSIM aktivieren",
+        "iPhone eSIM-Einrichtung",
+        "Android eSIM-Einrichtung",
+        "eSIM-Aktivierungsanleitung"
+      ]
+    }
   }
 }

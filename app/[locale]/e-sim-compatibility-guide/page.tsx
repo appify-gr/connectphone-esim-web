@@ -1,5 +1,7 @@
-// page.tsx
+// app/[locale]/e-sim-compatibility-guide/page.tsx
+
 import { ArrowUp } from "lucide-react";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/app/components/Button";
@@ -9,6 +11,33 @@ import { SupportedLocaleTypes } from "@/locales";
 import { IBrandESIM, IESIMData } from "./types";
 
 //---------------------------------------------------------------
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: SupportedLocaleTypes }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const translations = await getTranslations({ locale });
+  const slug = translations("/e-sim-compatibility-guide.url");
+
+  return {
+    title: translations("/e-sim-compatibility-guide.metadata.title"),
+    description: translations(
+      "/e-sim-compatibility-guide.metadata.description"
+    ),
+    keywords: translations.raw("/e-sim-compatibility-guide.metadata.keywords"),
+    openGraph: {
+      title: translations("/e-sim-compatibility-guide.metadata.title"),
+      description: translations(
+        "/e-sim-compatibility-guide.metadata.description"
+      ),
+      url: `https://www.connectphone-esim.com/${locale}/${slug}`,
+    },
+  };
+}
+
+//------------------------------------------------------------------
 
 const Page = async ({
   params,

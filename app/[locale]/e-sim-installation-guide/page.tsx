@@ -1,6 +1,8 @@
+// app/[locale]/e-sim-installation-guide/page.tsx
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import Button from "@/app/components/Button";
 import LanguageSelector from "@/app/components/LanguageSelector";
 import { getTranslations } from "next-intl/server";
@@ -8,6 +10,31 @@ import { SupportedLocaleTypes } from "@/locales";
 import { IInstallationGuide, IInstallationData } from "./types";
 
 //---------------------------------------------------------------
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: SupportedLocaleTypes }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const translations = await getTranslations({ locale });
+  const slug = translations("/e-sim-installation-guide.url");
+
+  return {
+    title: translations("/e-sim-installation-guide.metadata.title"),
+    description: translations("/e-sim-installation-guide.metadata.description"),
+    keywords: translations.raw("/e-sim-installation-guide.metadata.keywords"),
+    openGraph: {
+      title: translations("/e-sim-installation-guide.metadata.title"),
+      description: translations(
+        "/e-sim-installation-guide.metadata.description"
+      ),
+      url: `https://connectphone.eu/${locale}/${slug}`,
+    },
+  };
+}
+
+//-------------------------------------------------------------------
 
 const Page = async ({
   params,
