@@ -2,24 +2,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
-import { headers } from "next/headers";
+
+//---------------------------------------------------------------
 
 const Footer = async () => {
-  const headersList = await headers();
-  const pathname = headersList.get("x-pathname") || "";
-
-  // Extract locale from pathname (e.g., /en/page -> en)
-  const locale = pathname.split("/")[1] || "en";
-
-  const translations = await getTranslations({ locale });
+  const translations = await getTranslations();
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gray-950 border-t border-gray-800">
-      <div className="container mx-auto px-4 py-12 max-w-5xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <div className="container mx-auto px-4 pt-12 pb-7 max-w-5xl flex flex-col gap-8">
+        {/* Top Section - 3 Columns */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:border-r md:border-gray-800 md:pr-8">
             <Link href="/">
               <Image
                 src="/logo.png"
@@ -35,7 +31,7 @@ const Footer = async () => {
           </div>
 
           {/* Quick Links */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:border-r md:border-gray-800 md:px-8">
             <h3 className="text-white font-medium text-sm">
               {translations("footer.quick_links")}
             </h3>
@@ -63,7 +59,7 @@ const Footer = async () => {
           </div>
 
           {/* Legal & Support */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:pl-8">
             <h3 className="text-white font-medium text-sm">
               {translations("footer.support")}
             </h3>
@@ -94,7 +90,7 @@ const Footer = async () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-800 my-8"></div>
+        {/* <div className="border-t border-gray-800"></div> */}
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -112,7 +108,7 @@ const Footer = async () => {
               {translations("footer.part_of")}
             </span>
             <Link
-              href="https://appifypc.com"
+              href="https://app-ify.com/"
               target="_blank"
               className="flex items-center gap-2 opacity-70 hover:opacity-100 transition-opacity duration-200"
             >

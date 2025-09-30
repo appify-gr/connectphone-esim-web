@@ -139,10 +139,6 @@ const LanguageSelector = async ({
             ))}
           </div>
 
-          {/* Handle indicator */}
-          <div className="flex justify-center mt-4">
-            <div className="w-12 h-1 bg-gray-700 rounded-full"></div>
-          </div>
         </div>
       </div>
     </>
