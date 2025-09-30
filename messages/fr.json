@@ -68,5 +68,18 @@
     "step_images": "Images des étapes",
     "important_notes": "Notes importantes",
     "general_tips_for_device": "Conseils généraux"
+  },
+  "footer": {
+    "description": "Votre fournisseur de confiance pour la connectivité eSIM mondiale. Restez connecté où que vous voyagiez avec nos solutions eSIM fiables et abordables.",
+    "quick_links": "Liens Rapides",
+    "compatibility_guide": "Guide de Compatibilité",
+    "installation_guide": "Guide d'Installation",
+    "browse_plans": "Parcourir les Forfaits",
+    "support": "Support et Légal",
+    "contact_us": "Nous Contacter",
+    "privacy_policy": "Politique de Confidentialité",
+    "terms_of_service": "Conditions d'Utilisation",
+    "all_rights_reserved": "Tous droits réservés",
+    "part_of": "Fait partie de"
   }
 }

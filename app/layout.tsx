@@ -1,6 +1,8 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
+import Footer from "@/app/components/Footer";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -23,7 +25,12 @@ const RootLayout = ({
   return (
     <html lang="en">
       <body className={`${montserrat.className} antialiased`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <div className="flex flex-col min-h-screen">
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
