@@ -98,5 +98,18 @@
         "guía de activación eSIM"
       ]
     }
+  },
+  "footer": {
+    "description": "Su proveedor de confianza para conectividad eSIM global. Manténgase conectado donde quiera que viaje con nuestras soluciones eSIM confiables y asequibles.",
+    "quick_links": "Enlaces Rápidos",
+    "compatibility_guide": "Guía de Compatibilidad",
+    "installation_guide": "Guía de Instalación",
+    "browse_plans": "Ver Planes",
+    "support": "Soporte y Legal",
+    "contact_us": "Contáctenos",
+    "privacy_policy": "Política de Privacidad",
+    "terms_of_service": "Términos de Servicio",
+    "all_rights_reserved": "Todos los derechos reservados",
+    "part_of": "Parte de"
   }
 }

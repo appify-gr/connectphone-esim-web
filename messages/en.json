@@ -97,5 +97,18 @@
         "eSIM activation guide"
       ]
     }
+  },
+  "footer": {
+    "description": "Your trusted provider for global eSIM connectivity. Stay connected wherever you travel with our reliable and affordable eSIM solutions.",
+    "quick_links": "Quick Links",
+    "compatibility_guide": "Compatibility Guide",
+    "installation_guide": "Installation Guide",
+    "browse_plans": "Browse Plans",
+    "support": "Support & Legal",
+    "contact_us": "Contact Us",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "all_rights_reserved": "All rights reserved",
+    "part_of": "Part of"
   }
 }

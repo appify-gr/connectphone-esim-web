@@ -98,5 +98,18 @@
         "eSIM-Aktivierungsanleitung"
       ]
     }
+  },
+  "footer": {
+    "description": "Ihr vertrauenswürdiger Anbieter für globale eSIM-Konnektivität. Bleiben Sie überall verbunden mit unseren zuverlässigen und erschwinglichen eSIM-Lösungen.",
+    "quick_links": "Schnellzugriff",
+    "compatibility_guide": "Kompatibilitätsleitfaden",
+    "installation_guide": "Installationsanleitung",
+    "browse_plans": "Tarife durchsuchen",
+    "support": "Support & Rechtliches",
+    "contact_us": "Kontakt",
+    "privacy_policy": "Datenschutz",
+    "terms_of_service": "Nutzungsbedingungen",
+    "all_rights_reserved": "Alle Rechte vorbehalten",
+    "part_of": "Teil von"
   }
 }
