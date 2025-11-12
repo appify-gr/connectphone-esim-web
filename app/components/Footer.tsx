@@ -65,22 +65,19 @@ const Footer = async () => {
             </h3>
             <div className="flex flex-col gap-2">
               <Link
-                href="https://connectphone.eu/contact"
-                target="_blank"
+                href="/contact-us"
                 className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
               >
                 {translations("footer.contact_us")}
               </Link>
               <Link
-                href="https://connectphone.eu/privacy-policy"
-                target="_blank"
+                href="/privacy-policy"
                 className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
               >
                 {translations("footer.privacy_policy")}
               </Link>
               <Link
-                href="https://connectphone.eu/terms-of-service"
-                target="_blank"
+                href="/terms-of-service"
                 className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
               >
                 {translations("footer.terms_of_service")}

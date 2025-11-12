@@ -155,6 +155,11 @@
       "title": "Información Adicional",
       "description": "Para obtener información más detallada sobre cómo recopilamos, usamos y protegemos sus datos personales, consulte nuestra Política de Privacidad. Esta Política de Eliminación de Datos es parte de nuestro compromiso con la transparencia y sus derechos de privacidad."
     },
+    "related_links": {
+      "title": "Enlaces Relacionados",
+      "privacy_policy": "Política de Privacidad",
+      "terms_of_service": "Términos de Servicio"
+    },
     "metadata": {
       "title": "Política de Eliminación de Datos - ConnectPhone E-SIM",
       "description": "Aprenda cómo solicitar la eliminación de sus datos personales de ConnectPhone E-SIM de acuerdo con el RGPD y las regulaciones de privacidad",
@@ -166,6 +171,208 @@
         "derecho al olvido",
         "eliminación de datos personales",
         "política de privacidad"
+      ]
+    }
+  },
+  "/privacy-policy": {
+    "url": "política-de-privacidad",
+    "title": "Política de Privacidad",
+    "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
+    "last_updated": "Última actualización: Enero 2024",
+    "introduction": {
+      "title": "Introducción",
+      "description": "En ConnectPhone E-SIM, nos comprometemos a proteger su privacidad y garantizar la seguridad de su información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando utiliza nuestros servicios eSIM y nuestro sitio web."
+    },
+    "information_we_collect": {
+      "title": "Información que Recopilamos",
+      "description": "Recopilamos información que nos proporciona directamente e información que se recopila automáticamente cuando utiliza nuestros servicios:",
+      "personal_data": {
+        "title": "Información Personal",
+        "item_1": "Nombre, dirección de correo electrónico y número de teléfono",
+        "item_2": "Dirección de facturación e información de pago",
+        "item_3": "Credenciales de cuenta y preferencias",
+        "item_4": "Comunicaciones con el soporte al cliente"
+      },
+      "usage_data": {
+        "title": "Información de Uso",
+        "item_1": "Información e identificadores del dispositivo",
+        "item_2": "Datos de activación y uso de eSIM",
+        "item_3": "Datos de uso y análisis del sitio web"
+      }
+    },
+    "how_we_use": {
+      "title": "Cómo Usamos Su Información",
+      "description": "Usamos la información que recopilamos para:",
+      "item_1": "Proporcionar, mantener y mejorar nuestros servicios eSIM",
+      "item_2": "Procesar transacciones y enviar información relacionada",
+      "item_3": "Enviar avisos técnicos, actualizaciones y mensajes de soporte",
+      "item_4": "Responder a sus comentarios, preguntas y solicitudes",
+      "item_5": "Monitorear y analizar tendencias, uso y actividades"
+    },
+    "data_sharing": {
+      "title": "Compartir y Divulgación de Datos",
+      "description": "Podemos compartir su información en las siguientes circunstancias:",
+      "item_1": "Con proveedores de servicios que nos ayudan a operar nuestros servicios",
+      "item_2": "Cuando la ley lo requiera o para proteger nuestros derechos",
+      "item_3": "En relación con una transferencia comercial o fusión"
+    },
+    "data_security": {
+      "title": "Seguridad de los Datos",
+      "description": "Implementamos medidas técnicas y organizativas apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por Internet es 100% seguro."
+    },
+    "your_rights": {
+      "title": "Sus Derechos",
+      "description": "Dependiendo de su ubicación, puede tener ciertos derechos con respecto a su información personal:",
+      "item_1": "Acceder y recibir una copia de sus datos personales",
+      "item_2": "Rectificar datos inexactos o incompletos",
+      "item_3": "Solicitar la eliminación de sus datos personales",
+      "item_4": "Oponerse o restringir el procesamiento de sus datos"
+    },
+    "cookies": {
+      "title": "Cookies y Tecnologías de Seguimiento",
+      "description": "Utilizamos cookies y tecnologías de seguimiento similares para recopilar y usar información sobre usted. Puede controlar las cookies a través de la configuración de su navegador, pero esto puede afectar la funcionalidad de nuestros servicios."
+    },
+    "changes": {
+      "title": "Cambios a esta Política de Privacidad",
+      "description": "Podemos actualizar esta Política de Privacidad de vez en cuando. Le notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha 'Última actualización'."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Si tiene alguna pregunta sobre esta Política de Privacidad, <link>contáctenos</link> a través de nuestros canales de soporte."
+    },
+    "related_links": {
+      "title": "Enlaces Relacionados",
+      "data_deletion": "Política de Eliminación de Datos",
+      "terms_of_service": "Términos de Servicio"
+    },
+    "metadata": {
+      "title": "Política de Privacidad - ConnectPhone E-SIM",
+      "description": "Aprenda cómo ConnectPhone E-SIM recopila, usa y protege su información personal",
+      "keywords": [
+        "política de privacidad",
+        "protección de datos",
+        "RGPD",
+        "información personal",
+        "privacidad de datos",
+        "privacidad eSIM"
+      ]
+    }
+  },
+  "/terms-of-service": {
+    "url": "términos-de-servicio",
+    "title": "Términos de Servicio",
+    "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
+    "last_updated": "Última actualización: Enero 2024",
+    "introduction": {
+      "title": "Introducción",
+      "description": "Bienvenido a ConnectPhone E-SIM. Estos Términos de Servicio ('Términos') rigen su acceso y uso de nuestros servicios eSIM, sitio web y servicios relacionados. Al usar nuestros servicios, acepta estar sujeto a estos Términos."
+    },
+    "acceptance": {
+      "title": "Aceptación de los Términos",
+      "description": "Al acceder o usar nuestros servicios, acepta cumplir y estar sujeto a estos Términos. Si no está de acuerdo con alguna parte de estos Términos, no puede acceder o usar nuestros servicios."
+    },
+    "service_description": {
+      "title": "Descripción del Servicio",
+      "description": "ConnectPhone E-SIM proporciona servicios de conectividad eSIM que le permiten:",
+      "item_1": "Comprar y activar planes de datos eSIM para viajes internacionales",
+      "item_2": "Acceder a servicios de datos móviles en países compatibles",
+      "item_3": "Administrar su cuenta eSIM y uso a través de nuestra plataforma"
+    },
+    "user_responsibilities": {
+      "title": "Responsabilidades del Usuario",
+      "description": "Usted es responsable de:",
+      "item_1": "Asegurar que su dispositivo sea compatible con la tecnología eSIM",
+      "item_2": "Proporcionar información precisa y completa al crear una cuenta",
+      "item_3": "Mantener la seguridad de sus credenciales de cuenta",
+      "item_4": "Usar nuestros servicios en cumplimiento con las leyes y regulaciones aplicables"
+    },
+    "payment": {
+      "title": "Pago y Facturación",
+      "description": "Términos de pago:",
+      "item_1": "Todos los precios se muestran en la moneda especificada en el momento de la compra",
+      "item_2": "El pago debe realizarse antes de la activación eSIM",
+      "item_3": "Los reembolsos están sujetos a nuestra política de reembolso descrita a continuación"
+    },
+    "refund_policy": {
+      "title": "Política de Reembolso",
+      "description": "La elegibilidad para reembolso depende de varios factores, incluido el estado de activación, el uso y el momento de la solicitud. Por favor, contacte a nuestro equipo de soporte para consultas específicas de reembolso. Generalmente, las eSIM no activadas pueden ser elegibles para reembolso dentro de un período especificado, mientras que las eSIM activadas típicamente no son reembolsables."
+    },
+    "limitation": {
+      "title": "Limitación de Responsabilidad",
+      "description": "En la medida máxima permitida por la ley, ConnectPhone E-SIM no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo, o cualquier pérdida de ganancias o ingresos, ya sea incurrido directa o indirectamente, o cualquier pérdida de datos, uso, buena voluntad u otras pérdidas intangibles."
+    },
+    "intellectual_property": {
+      "title": "Propiedad Intelectual",
+      "description": "Todo el contenido, características y funcionalidad de nuestros servicios, incluyendo pero no limitado a texto, gráficos, logotipos y software, son propiedad de ConnectPhone E-SIM y están protegidos por leyes internacionales de derechos de autor, marcas registradas y otras leyes de propiedad intelectual."
+    },
+    "termination": {
+      "title": "Terminación",
+      "description": "Nos reservamos el derecho de suspender o terminar su acceso a nuestros servicios en cualquier momento, con o sin causa o aviso, por cualquier razón, incluyendo, pero no limitado a, violación de estos Términos."
+    },
+    "changes": {
+      "title": "Cambios a los Términos",
+      "description": "Nos reservamos el derecho de modificar estos Términos en cualquier momento. Notificaremos a los usuarios de cualquier cambio material publicando los Términos actualizados en esta página y actualizando la fecha 'Última actualización'. Su uso continuo de nuestros servicios después de tales cambios constituye la aceptación de los nuevos Términos."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Si tiene alguna pregunta sobre estos Términos de Servicio, <link>contáctenos</link> a través de nuestros canales de soporte."
+    },
+    "related_links": {
+      "title": "Enlaces Relacionados",
+      "privacy_policy": "Política de Privacidad",
+      "data_deletion": "Política de Eliminación de Datos"
+    },
+    "metadata": {
+      "title": "Términos de Servicio - ConnectPhone E-SIM",
+      "description": "Lea los términos y condiciones para usar los servicios de ConnectPhone E-SIM",
+      "keywords": [
+        "términos de servicio",
+        "términos y condiciones",
+        "acuerdo de usuario",
+        "términos eSIM",
+        "términos de servicio"
+      ]
+    }
+  },
+  "/contact-us": {
+    "url": "contáctenos",
+    "title": "Contáctenos",
+    "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
+    "introduction": {
+      "title": "Póngase en Contacto",
+      "description": "¡Estamos aquí para ayudar! Si tiene alguna pregunta, inquietud o necesita asistencia con nuestros servicios eSIM, no dude en contactarnos a través de cualquiera de los métodos de contacto a continuación."
+    },
+    "contact_methods": {
+      "title": "Métodos de Contacto",
+      "email": {
+        "title": "Correo Electrónico",
+        "description": "Envíenos un correo electrónico y le responderemos lo antes posible."
+      },
+      "website": {
+        "title": "Formulario de Contacto en el Sitio Web",
+        "description": "Visite nuestro sitio web principal para usar nuestro formulario de contacto para consultas y soporte."
+      }
+    },
+    "response_time": {
+      "title": "Tiempo de Respuesta",
+      "description": "Nos esforzamos por responder a todas las consultas en un plazo de 24 a 48 horas durante los días hábiles. Para asuntos urgentes, por favor menciónelo en su mensaje y priorizaremos su solicitud."
+    },
+    "related_links": {
+      "title": "Enlaces Relacionados",
+      "privacy_policy": "Política de Privacidad",
+      "terms_of_service": "Términos de Servicio",
+      "data_deletion": "Política de Eliminación de Datos"
+    },
+    "metadata": {
+      "title": "Contáctenos - ConnectPhone E-SIM",
+      "description": "Póngase en contacto con ConnectPhone E-SIM para soporte, consultas o asistencia con nuestros servicios eSIM",
+      "keywords": [
+        "contacto",
+        "soporte",
+        "servicio al cliente",
+        "soporte eSIM",
+        "ayuda",
+        "contactar ConnectPhone"
       ]
     }
   },

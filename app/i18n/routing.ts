@@ -27,6 +27,24 @@ export const routing = defineRouting({
       fr: "/suppression-de-données",
       es: "/eliminación-de-datos",
     },
+    "/privacy-policy": {
+      en: "/privacy-policy",
+      de: "/datenschutzrichtlinie",
+      fr: "/politique-de-confidentialité",
+      es: "/política-de-privacidad",
+    },
+    "/terms-of-service": {
+      en: "/terms-of-service",
+      de: "/nutzungsbedingungen",
+      fr: "/conditions-d'utilisation",
+      es: "/términos-de-servicio",
+    },
+    "/contact-us": {
+      en: "/contact-us",
+      de: "/kontakt",
+      fr: "/nous-contacter",
+      es: "/contáctenos",
+    },
   },
 });
 

@@ -1,4 +1,4 @@
-// app/[locale]/data-deletion/page.tsx
+// app/[locale]/terms-of-service/page.tsx
 
 import { ArrowUp } from "lucide-react";
 import type { Metadata } from "next";
@@ -18,15 +18,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const translations = await getTranslations({ locale });
-  const slug = translations("/data-deletion.url");
+  const slug = translations("/terms-of-service.url");
 
   return {
-    title: translations("/data-deletion.metadata.title"),
-    description: translations("/data-deletion.metadata.description"),
-    keywords: translations.raw("/data-deletion.metadata.keywords"),
+    title: translations("/terms-of-service.metadata.title"),
+    description: translations("/terms-of-service.metadata.description"),
+    keywords: translations.raw("/terms-of-service.metadata.keywords"),
     openGraph: {
-      title: translations("/data-deletion.metadata.title"),
-      description: translations("/data-deletion.metadata.description"),
+      title: translations("/terms-of-service.metadata.title"),
+      description: translations("/terms-of-service.metadata.description"),
       url: `https://www.connectphone-esim.com/${locale}/${slug}`,
     },
   };
@@ -42,7 +42,7 @@ const Page = async ({
   const { locale } = await params;
   const translations = await getTranslations();
 
-  const currentRoute = `/data-deletion`;
+  const currentRoute = `/terms-of-service`;
 
   return (
     <div className="min-h-screen bg-gray-950">
@@ -78,6 +78,13 @@ const Page = async ({
         {/* Divider */}
         <div className="border-t border-gray-800"></div>
 
+        {/* Last Updated */}
+        <div className="flex flex-col gap-2">
+          <p className="text-gray-400 text-sm">
+            {translations(`${currentRoute}.last_updated`)}
+          </p>
+        </div>
+
         {/* Introduction */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
@@ -88,114 +95,130 @@ const Page = async ({
           </p>
         </div>
 
-        {/* Your Rights */}
+        {/* Acceptance of Terms */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.your_rights.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.your_rights.description`)}
-          </p>
-          <div className="flex flex-col gap-2">
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_1`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_2`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_3`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_4`)}
-            </p>
-          </div>
-        </div>
-
-        {/* What Data We Collect */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.data_collection.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.data_collection.description`)}
-          </p>
-          <div className="flex flex-col gap-2">
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_1`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_2`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_3`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_4`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_5`)}
-            </p>
-          </div>
-        </div>
-
-        {/* How to Request Deletion */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.how_to_request.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.how_to_request.description`)}
-          </p>
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-gray-300 text-sm font-medium">
-                {translations(`${currentRoute}.how_to_request.method_1.title`)}
-              </h3>
-              <p className="text-gray-400 text-sm">
-                {translations(`${currentRoute}.how_to_request.method_1.description`)}
-              </p>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-gray-300 text-sm font-medium">
-                {translations(`${currentRoute}.how_to_request.method_2.title`)}
-              </h3>
-              <p className="text-gray-400 text-sm">
-                {translations(`${currentRoute}.how_to_request.method_2.description`)}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Processing Time */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.processing_time.title`)}
+            {translations(`${currentRoute}.acceptance.title`)}
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
-            {translations(`${currentRoute}.processing_time.description`)}
+            {translations(`${currentRoute}.acceptance.description`)}
           </p>
         </div>
 
-        {/* Exceptions */}
+        {/* Service Description */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.exceptions.title`)}
+            {translations(`${currentRoute}.service_description.title`)}
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.exceptions.description`)}
+            {translations(`${currentRoute}.service_description.description`)}
           </p>
           <div className="flex flex-col gap-2">
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.exceptions.exception_1`)}
+              • {translations(`${currentRoute}.service_description.item_1`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.exceptions.exception_2`)}
+              • {translations(`${currentRoute}.service_description.item_2`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.exceptions.exception_3`)}
+              • {translations(`${currentRoute}.service_description.item_3`)}
             </p>
           </div>
+        </div>
+
+        {/* User Responsibilities */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.user_responsibilities.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed mb-3">
+            {translations(`${currentRoute}.user_responsibilities.description`)}
+          </p>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.user_responsibilities.item_1`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.user_responsibilities.item_2`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.user_responsibilities.item_3`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.user_responsibilities.item_4`)}
+            </p>
+          </div>
+        </div>
+
+        {/* Payment and Billing */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.payment.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed mb-3">
+            {translations(`${currentRoute}.payment.description`)}
+          </p>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.payment.item_1`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.payment.item_2`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.payment.item_3`)}
+            </p>
+          </div>
+        </div>
+
+        {/* Refund Policy */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.refund_policy.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.refund_policy.description`)}
+          </p>
+        </div>
+
+        {/* Limitation of Liability */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.limitation.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.limitation.description`)}
+          </p>
+        </div>
+
+        {/* Intellectual Property */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.intellectual_property.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.intellectual_property.description`)}
+          </p>
+        </div>
+
+        {/* Termination */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.termination.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.termination.description`)}
+          </p>
+        </div>
+
+        {/* Changes to Terms */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.changes.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.changes.description`)}
+          </p>
         </div>
 
         {/* Contact Information */}
@@ -220,19 +243,6 @@ const Page = async ({
         {/* Divider */}
         <div className="border-t border-gray-800"></div>
 
-        {/* Additional Information */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.additional_info.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed">
-            {translations(`${currentRoute}.additional_info.description`)}
-          </p>
-        </div>
-
-        {/* Divider */}
-        <div className="border-t border-gray-800"></div>
-
         {/* Related Links */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
@@ -246,10 +256,10 @@ const Page = async ({
               {translations(`${currentRoute}.related_links.privacy_policy`)}
             </Link>
             <Link
-              href="/terms-of-service"
+              href="/data-deletion"
               className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200 text-sm"
             >
-              {translations(`${currentRoute}.related_links.terms_of_service`)}
+              {translations(`${currentRoute}.related_links.data_deletion`)}
             </Link>
           </div>
         </div>

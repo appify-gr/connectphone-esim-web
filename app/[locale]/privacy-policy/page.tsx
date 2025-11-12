@@ -1,4 +1,4 @@
-// app/[locale]/data-deletion/page.tsx
+// app/[locale]/privacy-policy/page.tsx
 
 import { ArrowUp } from "lucide-react";
 import type { Metadata } from "next";
@@ -18,15 +18,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const translations = await getTranslations({ locale });
-  const slug = translations("/data-deletion.url");
+  const slug = translations("/privacy-policy.url");
 
   return {
-    title: translations("/data-deletion.metadata.title"),
-    description: translations("/data-deletion.metadata.description"),
-    keywords: translations.raw("/data-deletion.metadata.keywords"),
+    title: translations("/privacy-policy.metadata.title"),
+    description: translations("/privacy-policy.metadata.description"),
+    keywords: translations.raw("/privacy-policy.metadata.keywords"),
     openGraph: {
-      title: translations("/data-deletion.metadata.title"),
-      description: translations("/data-deletion.metadata.description"),
+      title: translations("/privacy-policy.metadata.title"),
+      description: translations("/privacy-policy.metadata.description"),
       url: `https://www.connectphone-esim.com/${locale}/${slug}`,
     },
   };
@@ -42,7 +42,7 @@ const Page = async ({
   const { locale } = await params;
   const translations = await getTranslations();
 
-  const currentRoute = `/data-deletion`;
+  const currentRoute = `/privacy-policy`;
 
   return (
     <div className="min-h-screen bg-gray-950">
@@ -78,6 +78,13 @@ const Page = async ({
         {/* Divider */}
         <div className="border-t border-gray-800"></div>
 
+        {/* Last Updated */}
+        <div className="flex flex-col gap-2">
+          <p className="text-gray-400 text-sm">
+            {translations(`${currentRoute}.last_updated`)}
+          </p>
+        </div>
+
         {/* Introduction */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
@@ -85,6 +92,111 @@ const Page = async ({
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
             {translations(`${currentRoute}.introduction.description`)}
+          </p>
+        </div>
+
+        {/* Information We Collect */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.information_we_collect.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed mb-3">
+            {translations(`${currentRoute}.information_we_collect.description`)}
+          </p>
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-gray-300 text-sm font-medium">
+                {translations(`${currentRoute}.information_we_collect.personal_data.title`)}
+              </h3>
+              <div className="flex flex-col gap-2">
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.personal_data.item_1`)}
+                </p>
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.personal_data.item_2`)}
+                </p>
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.personal_data.item_3`)}
+                </p>
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.personal_data.item_4`)}
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-gray-300 text-sm font-medium">
+                {translations(`${currentRoute}.information_we_collect.usage_data.title`)}
+              </h3>
+              <div className="flex flex-col gap-2">
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.usage_data.item_1`)}
+                </p>
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.usage_data.item_2`)}
+                </p>
+                <p className="text-gray-400 text-sm">
+                  • {translations(`${currentRoute}.information_we_collect.usage_data.item_3`)}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* How We Use Your Information */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.how_we_use.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed mb-3">
+            {translations(`${currentRoute}.how_we_use.description`)}
+          </p>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.how_we_use.item_1`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.how_we_use.item_2`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.how_we_use.item_3`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.how_we_use.item_4`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.how_we_use.item_5`)}
+            </p>
+          </div>
+        </div>
+
+        {/* Data Sharing */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.data_sharing.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed mb-3">
+            {translations(`${currentRoute}.data_sharing.description`)}
+          </p>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.data_sharing.item_1`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.data_sharing.item_2`)}
+            </p>
+            <p className="text-gray-400 text-sm">
+              • {translations(`${currentRoute}.data_sharing.item_3`)}
+            </p>
+          </div>
+        </div>
+
+        {/* Data Security */}
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-medium text-white">
+            {translations(`${currentRoute}.data_security.title`)}
+          </h2>
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.data_security.description`)}
           </p>
         </div>
 
@@ -98,104 +210,38 @@ const Page = async ({
           </p>
           <div className="flex flex-col gap-2">
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_1`)}
+              • {translations(`${currentRoute}.your_rights.item_1`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_2`)}
+              • {translations(`${currentRoute}.your_rights.item_2`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_3`)}
+              • {translations(`${currentRoute}.your_rights.item_3`)}
             </p>
             <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.your_rights.right_4`)}
+              • {translations(`${currentRoute}.your_rights.item_4`)}
             </p>
           </div>
         </div>
 
-        {/* What Data We Collect */}
+        {/* Cookies */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.data_collection.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.data_collection.description`)}
-          </p>
-          <div className="flex flex-col gap-2">
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_1`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_2`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_3`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_4`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.data_collection.type_5`)}
-            </p>
-          </div>
-        </div>
-
-        {/* How to Request Deletion */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.how_to_request.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.how_to_request.description`)}
-          </p>
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-2">
-              <h3 className="text-gray-300 text-sm font-medium">
-                {translations(`${currentRoute}.how_to_request.method_1.title`)}
-              </h3>
-              <p className="text-gray-400 text-sm">
-                {translations(`${currentRoute}.how_to_request.method_1.description`)}
-              </p>
-            </div>
-            <div className="flex flex-col gap-2">
-              <h3 className="text-gray-300 text-sm font-medium">
-                {translations(`${currentRoute}.how_to_request.method_2.title`)}
-              </h3>
-              <p className="text-gray-400 text-sm">
-                {translations(`${currentRoute}.how_to_request.method_2.description`)}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Processing Time */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.processing_time.title`)}
+            {translations(`${currentRoute}.cookies.title`)}
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
-            {translations(`${currentRoute}.processing_time.description`)}
+            {translations(`${currentRoute}.cookies.description`)}
           </p>
         </div>
 
-        {/* Exceptions */}
+        {/* Changes to This Policy */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.exceptions.title`)}
+            {translations(`${currentRoute}.changes.title`)}
           </h2>
-          <p className="text-gray-400 text-sm leading-relaxed mb-3">
-            {translations(`${currentRoute}.exceptions.description`)}
+          <p className="text-gray-400 text-sm leading-relaxed">
+            {translations(`${currentRoute}.changes.description`)}
           </p>
-          <div className="flex flex-col gap-2">
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.exceptions.exception_1`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.exceptions.exception_2`)}
-            </p>
-            <p className="text-gray-400 text-sm">
-              • {translations(`${currentRoute}.exceptions.exception_3`)}
-            </p>
-          </div>
         </div>
 
         {/* Contact Information */}
@@ -220,19 +266,6 @@ const Page = async ({
         {/* Divider */}
         <div className="border-t border-gray-800"></div>
 
-        {/* Additional Information */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-xl font-medium text-white">
-            {translations(`${currentRoute}.additional_info.title`)}
-          </h2>
-          <p className="text-gray-400 text-sm leading-relaxed">
-            {translations(`${currentRoute}.additional_info.description`)}
-          </p>
-        </div>
-
-        {/* Divider */}
-        <div className="border-t border-gray-800"></div>
-
         {/* Related Links */}
         <div className="flex flex-col gap-3">
           <h2 className="text-xl font-medium text-white">
@@ -240,10 +273,10 @@ const Page = async ({
           </h2>
           <div className="flex flex-col gap-2">
             <Link
-              href="/privacy-policy"
+              href="/data-deletion"
               className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors duration-200 text-sm"
             >
-              {translations(`${currentRoute}.related_links.privacy_policy`)}
+              {translations(`${currentRoute}.related_links.data_deletion`)}
             </Link>
             <Link
               href="/terms-of-service"
