@@ -21,6 +21,12 @@ export const routing = defineRouting({
       fr: "/guide-d'installation-e-sim",
       es: "/guía-de-instalación-e-sim",
     },
+    "/data-deletion": {
+      en: "/data-deletion",
+      de: "/datenlöschung",
+      fr: "/suppression-de-données",
+      es: "/eliminación-de-datos",
+    },
   },
 });
 

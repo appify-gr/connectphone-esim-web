@@ -99,6 +99,76 @@
       ]
     }
   },
+  "/data-deletion": {
+    "url": "datenlöschung",
+    "title": "Datenlöschungsrichtlinie",
+    "e_sim_offers_button_title": "Unsere E-SIM-Angebote anzeigen",
+    "introduction": {
+      "title": "Einführung",
+      "description": "Bei ConnectPhone E-SIM sind wir dem Schutz Ihrer Privatsphäre und der Achtung Ihrer Rechte bezüglich Ihrer persönlichen Daten verpflichtet. Diese Datenlöschungsrichtlinie erklärt, wie Sie die Löschung Ihrer persönlichen Informationen aus unseren Systemen gemäß den geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO) und anderen relevanten Datenschutzbestimmungen, beantragen können."
+    },
+    "your_rights": {
+      "title": "Ihre Rechte",
+      "description": "Unter den Datenschutzgesetzen haben Sie folgende Rechte bezüglich Ihrer persönlichen Daten:",
+      "right_1": "Recht auf Löschung (Recht auf Vergessenwerden) - Sie können die Löschung Ihrer persönlichen Daten beantragen",
+      "right_2": "Recht auf Auskunft - Sie können eine Kopie der von uns gespeicherten persönlichen Daten anfordern",
+      "right_3": "Recht auf Berichtigung - Sie können die Korrektur unrichtiger persönlicher Daten beantragen",
+      "right_4": "Widerspruchsrecht - Sie können der Verarbeitung Ihrer persönlichen Daten unter bestimmten Umständen widersprechen"
+    },
+    "data_collection": {
+      "title": "Welche Daten wir sammeln",
+      "description": "Wir können folgende Arten von persönlichen Daten sammeln und verarbeiten:",
+      "type_1": "Kontoinformationen (Name, E-Mail-Adresse, Telefonnummer)",
+      "type_2": "Zahlungsinformationen (Rechnungsadresse, Zahlungsmethodendetails)",
+      "type_3": "Nutzungsdaten (eSIM-Aktivierung, Datennutzung, Geräteinformationen)",
+      "type_4": "Kommunikationsaufzeichnungen (Kundensupport-Interaktionen, E-Mails)",
+      "type_5": "Technische Daten (IP-Adresse, Browsertyp, Geräte-IDs)"
+    },
+    "how_to_request": {
+      "title": "Wie Sie die Datenlöschung beantragen",
+      "description": "Um die Löschung Ihrer persönlichen Daten zu beantragen, können Sie eine der folgenden Methoden verwenden:",
+      "method_1": {
+        "title": "E-Mail-Anfrage",
+        "description": "Senden Sie eine E-Mail an unser Support-Team unter support@connectphone.eu mit dem Betreff 'Datenlöschungsanfrage'. Bitte geben Sie Ihre Kontakt-E-Mail-Adresse und alle zusätzlichen Informationen an, die uns bei der Identifizierung Ihres Kontos helfen."
+      },
+      "method_2": {
+        "title": "Kontaktformular",
+        "description": "Besuchen Sie unsere Kontaktseite unter connectphone.eu/contact und senden Sie eine Datenlöschungsanfrage über unser Kontaktformular. Stellen Sie sicher, dass Sie klar angeben, dass Sie eine Datenlöschung beantragen."
+      }
+    },
+    "processing_time": {
+      "title": "Bearbeitungszeit",
+      "description": "Wir bearbeiten Ihre Datenlöschungsanfrage innerhalb von 30 Tagen nach Eingang. In einigen Fällen müssen wir möglicherweise Ihre Identität überprüfen, bevor wir die Anfrage bearbeiten, um die Sicherheit Ihrer Daten zu gewährleisten. Wenn wir zusätzliche Zeit oder Informationen benötigen, werden wir Sie innerhalb der ersten 30-Tage-Frist benachrichtigen."
+    },
+    "exceptions": {
+      "title": "Ausnahmen von der Datenlöschung",
+      "description": "Bitte beachten Sie, dass wir möglicherweise bestimmte Daten aus rechtlichen oder berechtigten Geschäftszwecken aufbewahren müssen, einschließlich:",
+      "exception_1": "Finanzunterlagen, die für Buchhaltungs- und Steuerzwecke erforderlich sind (in der Regel 7 Jahre aufbewahrt)",
+      "exception_2": "Daten, die zur Erfüllung rechtlicher Verpflichtungen oder zur Verteidigung von Rechtsansprüchen erforderlich sind",
+      "exception_3": "Anonymisierte oder aggregierte Daten, die nicht zur Identifizierung verwendet werden können"
+    },
+    "contact": {
+      "title": "Kontaktinformationen",
+      "description": "Wenn Sie Fragen zu dieser Datenlöschungsrichtlinie haben oder Ihre Rechte ausüben möchten, <link>kontaktieren Sie uns bitte</link> über unsere Support-Kanäle."
+    },
+    "additional_info": {
+      "title": "Zusätzliche Informationen",
+      "description": "Für detailliertere Informationen darüber, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen, lesen Sie bitte unsere Datenschutzerklärung. Diese Datenlöschungsrichtlinie ist Teil unseres Engagements für Transparenz und Ihre Datenschutzrechte."
+    },
+    "metadata": {
+      "title": "Datenlöschungsrichtlinie - ConnectPhone E-SIM",
+      "description": "Erfahren Sie, wie Sie die Löschung Ihrer persönlichen Daten von ConnectPhone E-SIM gemäß DSGVO und Datenschutzbestimmungen beantragen können",
+      "keywords": [
+        "Datenlöschung",
+        "DSGVO",
+        "Datenschutzrechte",
+        "Datenschutz",
+        "Recht auf Vergessenwerden",
+        "Löschung persönlicher Daten",
+        "Datenschutzerklärung"
+      ]
+    }
+  },
   "footer": {
     "description": "Ihr vertrauenswürdiger Anbieter für globale eSIM-Konnektivität. Bleiben Sie überall verbunden mit unseren zuverlässigen und erschwinglichen eSIM-Lösungen.",
     "quick_links": "Schnellzugriff",
@@ -109,6 +179,7 @@
     "contact_us": "Kontakt",
     "privacy_policy": "Datenschutz",
     "terms_of_service": "Nutzungsbedingungen",
+    "data_deletion": "Datenlöschung",
     "all_rights_reserved": "Alle Rechte vorbehalten",
     "part_of": "Teil von"
   }

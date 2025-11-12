@@ -98,6 +98,76 @@
       ]
     }
   },
+  "/data-deletion": {
+    "url": "data-deletion",
+    "title": "Data Deletion Policy",
+    "e_sim_offers_button_title": "View our E-SIM offers",
+    "introduction": {
+      "title": "Introduction",
+      "description": "At ConnectPhone E-SIM, we are committed to protecting your privacy and respecting your rights regarding your personal data. This Data Deletion Policy explains how you can request the deletion of your personal information from our systems in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR) and other relevant privacy regulations."
+    },
+    "your_rights": {
+      "title": "Your Rights",
+      "description": "Under data protection laws, you have the following rights regarding your personal data:",
+      "right_1": "Right to erasure (right to be forgotten) - You can request deletion of your personal data",
+      "right_2": "Right to access - You can request a copy of the personal data we hold about you",
+      "right_3": "Right to rectification - You can request correction of inaccurate personal data",
+      "right_4": "Right to object - You can object to processing of your personal data in certain circumstances"
+    },
+    "data_collection": {
+      "title": "What Data We Collect",
+      "description": "We may collect and process the following types of personal data:",
+      "type_1": "Account information (name, email address, phone number)",
+      "type_2": "Payment information (billing address, payment method details)",
+      "type_3": "Usage data (eSIM activation, data usage, device information)",
+      "type_4": "Communication records (customer support interactions, emails)",
+      "type_5": "Technical data (IP address, browser type, device identifiers)"
+    },
+    "how_to_request": {
+      "title": "How to Request Data Deletion",
+      "description": "To request deletion of your personal data, you can use one of the following methods:",
+      "method_1": {
+        "title": "Email Request",
+        "description": "Send an email to our support team at support@connectphone.eu with the subject 'Data Deletion Request'. Please include your account email address and any additional information that will help us identify your account."
+      },
+      "method_2": {
+        "title": "Contact Form",
+        "description": "Visit our contact page at connectphone.eu/contact and submit a data deletion request through our contact form. Make sure to clearly state that you are requesting data deletion."
+      }
+    },
+    "processing_time": {
+      "title": "Processing Time",
+      "description": "We will process your data deletion request within 30 days of receipt. In some cases, we may need to verify your identity before processing the request to ensure the security of your data. If we need additional time or information, we will notify you within the initial 30-day period."
+    },
+    "exceptions": {
+      "title": "Exceptions to Data Deletion",
+      "description": "Please note that we may be required to retain certain data for legal or legitimate business purposes, including:",
+      "exception_1": "Financial records required for accounting and tax purposes (typically retained for 7 years)",
+      "exception_2": "Data necessary to comply with legal obligations or defend legal claims",
+      "exception_3": "Anonymized or aggregated data that cannot be used to identify you"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If you have any questions about this Data Deletion Policy or wish to exercise your rights, please <link>contact us</link> through our support channels."
+    },
+    "additional_info": {
+      "title": "Additional Information",
+      "description": "For more detailed information about how we collect, use, and protect your personal data, please refer to our Privacy Policy. This Data Deletion Policy is part of our commitment to transparency and your privacy rights."
+    },
+    "metadata": {
+      "title": "Data Deletion Policy - ConnectPhone E-SIM",
+      "description": "Learn how to request deletion of your personal data from ConnectPhone E-SIM in accordance with GDPR and privacy regulations",
+      "keywords": [
+        "data deletion",
+        "GDPR",
+        "privacy rights",
+        "data protection",
+        "right to be forgotten",
+        "personal data deletion",
+        "privacy policy"
+      ]
+    }
+  },
   "footer": {
     "description": "Your trusted provider for global eSIM connectivity. Stay connected wherever you travel with our reliable and affordable eSIM solutions.",
     "quick_links": "Quick Links",
@@ -108,6 +178,7 @@
     "contact_us": "Contact Us",
     "privacy_policy": "Privacy Policy",
     "terms_of_service": "Terms of Service",
+    "data_deletion": "Data Deletion",
     "all_rights_reserved": "All rights reserved",
     "part_of": "Part of"
   }

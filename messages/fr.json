@@ -99,6 +99,76 @@
       ]
     }
   },
+  "/data-deletion": {
+    "url": "suppression-de-données",
+    "title": "Politique de Suppression des Données",
+    "e_sim_offers_button_title": "Voir nos offres de eSIM",
+    "introduction": {
+      "title": "Introduction",
+      "description": "Chez ConnectPhone E-SIM, nous nous engageons à protéger votre vie privée et à respecter vos droits concernant vos données personnelles. Cette Politique de Suppression des Données explique comment vous pouvez demander la suppression de vos informations personnelles de nos systèmes conformément aux lois applicables sur la protection des données, y compris le Règlement Général sur la Protection des Données (RGPD) et d'autres réglementations de confidentialité pertinentes."
+    },
+    "your_rights": {
+      "title": "Vos Droits",
+      "description": "En vertu des lois sur la protection des données, vous disposez des droits suivants concernant vos données personnelles:",
+      "right_1": "Droit à l'effacement (droit à l'oubli) - Vous pouvez demander la suppression de vos données personnelles",
+      "right_2": "Droit d'accès - Vous pouvez demander une copie des données personnelles que nous détenons sur vous",
+      "right_3": "Droit de rectification - Vous pouvez demander la correction de données personnelles inexactes",
+      "right_4": "Droit d'opposition - Vous pouvez vous opposer au traitement de vos données personnelles dans certaines circonstances"
+    },
+    "data_collection": {
+      "title": "Quelles Données Nous Collectons",
+      "description": "Nous pouvons collecter et traiter les types de données personnelles suivants:",
+      "type_1": "Informations de compte (nom, adresse e-mail, numéro de téléphone)",
+      "type_2": "Informations de paiement (adresse de facturation, détails de la méthode de paiement)",
+      "type_3": "Données d'utilisation (activation eSIM, utilisation des données, informations sur l'appareil)",
+      "type_4": "Dossiers de communication (interactions avec le support client, e-mails)",
+      "type_5": "Données techniques (adresse IP, type de navigateur, identifiants d'appareil)"
+    },
+    "how_to_request": {
+      "title": "Comment Demander la Suppression des Données",
+      "description": "Pour demander la suppression de vos données personnelles, vous pouvez utiliser l'une des méthodes suivantes:",
+      "method_1": {
+        "title": "Demande par E-mail",
+        "description": "Envoyez un e-mail à notre équipe de support à support@connectphone.eu avec l'objet 'Demande de Suppression des Données'. Veuillez inclure votre adresse e-mail de compte et toute information supplémentaire qui nous aidera à identifier votre compte."
+      },
+      "method_2": {
+        "title": "Formulaire de Contact",
+        "description": "Visitez notre page de contact à connectphone.eu/contact et soumettez une demande de suppression de données via notre formulaire de contact. Assurez-vous d'indiquer clairement que vous demandez une suppression de données."
+      }
+    },
+    "processing_time": {
+      "title": "Délai de Traitement",
+      "description": "Nous traiterons votre demande de suppression de données dans les 30 jours suivant sa réception. Dans certains cas, nous devrons peut-être vérifier votre identité avant de traiter la demande pour assurer la sécurité de vos données. Si nous avons besoin de temps ou d'informations supplémentaires, nous vous en informerons dans la période initiale de 30 jours."
+    },
+    "exceptions": {
+      "title": "Exceptions à la Suppression des Données",
+      "description": "Veuillez noter que nous pouvons être tenus de conserver certaines données à des fins légales ou légitimes, notamment:",
+      "exception_1": "Dossiers financiers requis à des fins comptables et fiscales (généralement conservés pendant 7 ans)",
+      "exception_2": "Données nécessaires pour se conformer aux obligations légales ou défendre des réclamations légales",
+      "exception_3": "Données anonymisées ou agrégées qui ne peuvent pas être utilisées pour vous identifier"
+    },
+    "contact": {
+      "title": "Informations de Contact",
+      "description": "Si vous avez des questions sur cette Politique de Suppression des Données ou souhaitez exercer vos droits, veuillez <link>nous contacter</link> via nos canaux de support."
+    },
+    "additional_info": {
+      "title": "Informations Supplémentaires",
+      "description": "Pour plus d'informations détaillées sur la façon dont nous collectons, utilisons et protégeons vos données personnelles, veuillez consulter notre Politique de Confidentialité. Cette Politique de Suppression des Données fait partie de notre engagement en faveur de la transparence et de vos droits à la vie privée."
+    },
+    "metadata": {
+      "title": "Politique de Suppression des Données - ConnectPhone E-SIM",
+      "description": "Apprenez comment demander la suppression de vos données personnelles de ConnectPhone E-SIM conformément au RGPD et aux réglementations de confidentialité",
+      "keywords": [
+        "suppression de données",
+        "RGPD",
+        "droits à la vie privée",
+        "protection des données",
+        "droit à l'oubli",
+        "suppression de données personnelles",
+        "politique de confidentialité"
+      ]
+    }
+  },
   "footer": {
     "description": "Votre fournisseur de confiance pour la connectivité eSIM mondiale. Restez connecté où que vous voyagiez avec nos solutions eSIM fiables et abordables.",
     "quick_links": "Liens Rapides",
@@ -109,6 +179,7 @@
     "contact_us": "Nous Contacter",
     "privacy_policy": "Politique de Confidentialité",
     "terms_of_service": "Conditions d'Utilisation",
+    "data_deletion": "Suppression des Données",
     "all_rights_reserved": "Tous droits réservés",
     "part_of": "Fait partie de"
   }

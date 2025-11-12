@@ -99,6 +99,76 @@
       ]
     }
   },
+  "/data-deletion": {
+    "url": "eliminación-de-datos",
+    "title": "Política de Eliminación de Datos",
+    "e_sim_offers_button_title": "Ver nuestras ofertas de eSIM",
+    "introduction": {
+      "title": "Introducción",
+      "description": "En ConnectPhone E-SIM, nos comprometemos a proteger su privacidad y respetar sus derechos con respecto a sus datos personales. Esta Política de Eliminación de Datos explica cómo puede solicitar la eliminación de su información personal de nuestros sistemas de acuerdo con las leyes aplicables de protección de datos, incluido el Reglamento General de Protección de Datos (RGPD) y otras regulaciones de privacidad relevantes."
+    },
+    "your_rights": {
+      "title": "Sus Derechos",
+      "description": "Bajo las leyes de protección de datos, tiene los siguientes derechos con respecto a sus datos personales:",
+      "right_1": "Derecho al borrado (derecho al olvido) - Puede solicitar la eliminación de sus datos personales",
+      "right_2": "Derecho de acceso - Puede solicitar una copia de los datos personales que tenemos sobre usted",
+      "right_3": "Derecho de rectificación - Puede solicitar la corrección de datos personales inexactos",
+      "right_4": "Derecho de oposición - Puede oponerse al procesamiento de sus datos personales en ciertas circunstancias"
+    },
+    "data_collection": {
+      "title": "Qué Datos Recopilamos",
+      "description": "Podemos recopilar y procesar los siguientes tipos de datos personales:",
+      "type_1": "Información de cuenta (nombre, dirección de correo electrónico, número de teléfono)",
+      "type_2": "Información de pago (dirección de facturación, detalles del método de pago)",
+      "type_3": "Datos de uso (activación de eSIM, uso de datos, información del dispositivo)",
+      "type_4": "Registros de comunicación (interacciones con el soporte al cliente, correos electrónicos)",
+      "type_5": "Datos técnicos (dirección IP, tipo de navegador, identificadores de dispositivo)"
+    },
+    "how_to_request": {
+      "title": "Cómo Solicitar la Eliminación de Datos",
+      "description": "Para solicitar la eliminación de sus datos personales, puede usar uno de los siguientes métodos:",
+      "method_1": {
+        "title": "Solicitud por Correo Electrónico",
+        "description": "Envíe un correo electrónico a nuestro equipo de soporte a support@connectphone.eu con el asunto 'Solicitud de Eliminación de Datos'. Por favor, incluya su dirección de correo electrónico de cuenta y cualquier información adicional que nos ayude a identificar su cuenta."
+      },
+      "method_2": {
+        "title": "Formulario de Contacto",
+        "description": "Visite nuestra página de contacto en connectphone.eu/contact y envíe una solicitud de eliminación de datos a través de nuestro formulario de contacto. Asegúrese de indicar claramente que está solicitando la eliminación de datos."
+      }
+    },
+    "processing_time": {
+      "title": "Tiempo de Procesamiento",
+      "description": "Procesaremos su solicitud de eliminación de datos dentro de los 30 días posteriores a su recepción. En algunos casos, es posible que necesitemos verificar su identidad antes de procesar la solicitud para garantizar la seguridad de sus datos. Si necesitamos tiempo o información adicional, le notificaremos dentro del período inicial de 30 días."
+    },
+    "exceptions": {
+      "title": "Excepciones a la Eliminación de Datos",
+      "description": "Tenga en cuenta que podemos estar obligados a conservar ciertos datos por razones legales o comerciales legítimas, incluyendo:",
+      "exception_1": "Registros financieros requeridos para fines contables y fiscales (típicamente conservados durante 7 años)",
+      "exception_2": "Datos necesarios para cumplir con obligaciones legales o defender reclamos legales",
+      "exception_3": "Datos anonimizados o agregados que no pueden usarse para identificarlo"
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "description": "Si tiene alguna pregunta sobre esta Política de Eliminación de Datos o desea ejercer sus derechos, <link>contáctenos</link> a través de nuestros canales de soporte."
+    },
+    "additional_info": {
+      "title": "Información Adicional",
+      "description": "Para obtener información más detallada sobre cómo recopilamos, usamos y protegemos sus datos personales, consulte nuestra Política de Privacidad. Esta Política de Eliminación de Datos es parte de nuestro compromiso con la transparencia y sus derechos de privacidad."
+    },
+    "metadata": {
+      "title": "Política de Eliminación de Datos - ConnectPhone E-SIM",
+      "description": "Aprenda cómo solicitar la eliminación de sus datos personales de ConnectPhone E-SIM de acuerdo con el RGPD y las regulaciones de privacidad",
+      "keywords": [
+        "eliminación de datos",
+        "RGPD",
+        "derechos de privacidad",
+        "protección de datos",
+        "derecho al olvido",
+        "eliminación de datos personales",
+        "política de privacidad"
+      ]
+    }
+  },
   "footer": {
     "description": "Su proveedor de confianza para conectividad eSIM global. Manténgase conectado donde quiera que viaje con nuestras soluciones eSIM confiables y asequibles.",
     "quick_links": "Enlaces Rápidos",
@@ -109,6 +179,7 @@
     "contact_us": "Contáctenos",
     "privacy_policy": "Política de Privacidad",
     "terms_of_service": "Términos de Servicio",
+    "data_deletion": "Eliminación de Datos",
     "all_rights_reserved": "Todos los derechos reservados",
     "part_of": "Parte de"
   }

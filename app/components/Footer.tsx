@@ -85,6 +85,12 @@ const Footer = async () => {
               >
                 {translations("footer.terms_of_service")}
               </Link>
+              <Link
+                href="/data-deletion"
+                className="text-gray-400 hover:text-white text-sm transition-colors duration-200"
+              >
+                {translations("footer.data_deletion")}
+              </Link>
             </div>
           </div>
         </div>
