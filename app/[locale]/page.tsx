@@ -8,7 +8,7 @@ const Home = async () => {
   const currentRoute = `/`;
 
   return (
-    <div className="relative items-center justify-center flex h-screen bg-gray-950">
+    <div className="relative items-center justify-center flex h-screen bg-main-bg-color-dark">
       <Image src="/logo.png" alt="Logo" width={250} height={150} />
 
       {/* In Development Indicator */}

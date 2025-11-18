@@ -55,7 +55,7 @@ const LanguageSelector = async ({
       />
 
       {/* Bottom Drawer */}
-      <div className="fixed bottom-0 left-0 right-0 bg-gray-950 border-t border-gray-700 shadow-2xl transform translate-y-full peer-checked:translate-y-0 transition-transform duration-300 ease-out z-50">
+      <div className="fixed bottom-0 left-0 right-0 bg-main-bg-color-dark border-t border-gray-700 shadow-2xl transform translate-y-full peer-checked:translate-y-0 transition-transform duration-300 ease-out z-50">
         <div className="container mx-auto max-w-5xl px-4 py-6">
           {/* Drawer Header */}
           <div className="flex items-center justify-between mb-6">

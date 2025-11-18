@@ -45,7 +45,7 @@ const Page = async ({
   const currentRoute = `/privacy-policy`;
 
   return (
-    <div className="min-h-screen bg-gray-950">
+    <div className="min-h-screen bg-main-bg-color-dark">
       <div
         id="top"
         className="container mx-auto px-4 py-8 max-w-5xl sm:px-6 sm:py-12 flex flex-col gap-8 sm:gap-12"

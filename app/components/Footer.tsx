@@ -10,7 +10,7 @@ const Footer = async () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-950 border-t border-gray-800">
+    <footer className="bg-main-bg-color-dark border-t border-gray-800">
       <div className="container mx-auto px-4 pt-12 pb-7 max-w-5xl flex flex-col gap-8">
         {/* Top Section - 3 Columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
